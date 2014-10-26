@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">WildCat's Blog</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://blog.wildcat.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://blog.wildcat.io" />
+<updated>2014-10-26T11:54:42+08:00</updated>
+<id>http://blog.wildcat.io/</id>
+<author>
+  <name>WildCat</name>
+  <uri>http://blog.wildcat.io/</uri>
+  <email>i@wildcat.name</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[迁移到 Jekyll]]></title>
+  <link>http://blog.wildcat.io/2014/migrate-to-jekyll</link>
+  <id>http://blog.wildcat.io/2014/migrate-to-jekyll</id>
+  <published>2014-10-26T11:49:00+08:00</published>
+  <updated>2014-10-26T11:49:00+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri>http://blog.wildcat.io</uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;p&gt;思考再三，决定不再使用 Ghost ，大致原因如下：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图片难以管理&lt;/li&gt;
+  &lt;li&gt;App/Api 开发进度令人失望&lt;/li&gt;
+  &lt;li&gt;不支持评论，这样和静态博客区别不大&lt;/li&gt;
+  &lt;li&gt;Markdown 支持不够优秀&lt;/li&gt;
+  &lt;li&gt;内存占用不够理想&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/migrate-to-jekyll&quot;&gt;迁移到 Jekyll&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on October 26, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Rails 部署时遇到的问题（其实是 MIME type 错误）]]></title>
+  <link>http://blog.wildcat.io/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</link>
+  <id>http://blog.wildcat.io/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</id>
+  <published>2014-10-13T22:14:00+08:00</published>
+  <updated>2014-10-13T22:14:00+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri>http://blog.wildcat.io</uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;p&gt;这两天在学习 Rails ，昨晚第一次尝试部署，遇到一个奇葩的问题：&lt;br /&gt;
+CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 各种 keyword （比如 rails css not working / rails css not rendered ）都是没有符合的结果。纠结了好久。&lt;br /&gt;
+&lt;!-- more --&gt;
+今天中午的时候终于发现 CSS 的 Content Type 不对，竟然是 &lt;code&gt;text/plain&lt;/code&gt; ，于是去 nginx.conf 里寻错。原因是我把以前 nginx.conf 删掉了，新的配置文件内没有了 &lt;code&gt;include /etc/nginx/mime.types;&lt;/code&gt; 。重新修改文件结构，重启 nginx ，&lt;strong&gt;问题依旧&lt;/strong&gt; 。&lt;br /&gt;
+我以为还是没有找到问题，但是突然想到 HTTP 头内有设置缓存，于是换了个浏览器，CSS最终正确显示，问题得到解决。  &lt;/p&gt;
+
+&lt;p&gt;虽然是个低级的问题，但是被纠结了大半天，一开始也没有考虑到 Content Type 的问题。&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type&quot;&gt;Rails 部署时遇到的问题（其实是 MIME type 错误）&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on October 13, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Design + Code 里的颜色]]></title>
+  <link>http://blog.wildcat.io/2014/colors-in-design-plus-code</link>
+  <id>http://blog.wildcat.io/2014/colors-in-design-plus-code</id>
+  <published>2014-10-03T18:23:00+08:00</published>
+  <updated>2014-10-03T18:23:00+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri>http://blog.wildcat.io</uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+&lt;svg width=&quot;560px&quot; height=&quot;40px&quot; viewbox=&quot;0 0 560 40&quot; version=&quot;1.1&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:sketch=&quot;http://www.bohemiancoding.com/sketch/ns&quot;&gt;
+    &lt;!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch --&gt;
+    &lt;title&gt;Design + Code: Colors&lt;/title&gt;
+    &lt;desc&gt;Created with Sketch.&lt;/desc&gt;
+    &lt;defs&gt;&lt;/defs&gt;
+    &lt;g id=&quot;Page-1&quot; stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot; sketch:type=&quot;MSPage&quot;&gt;
+        &lt;g id=&quot;Design-+-Code:-Colors&quot; sketch:type=&quot;MSArtboardGroup&quot;&gt;
+            &lt;rect id=&quot;Rectangle-1&quot; fill=&quot;#E84A3C&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-2&quot; fill=&quot;#E67422&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;40&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-3&quot; fill=&quot;#F3BA0E&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;80&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-4&quot; fill=&quot;#C3D957&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;120&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-5&quot; fill=&quot;#87CC64&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;160&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-6&quot; fill=&quot;#2FCC63&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;200&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-12&quot; fill=&quot;#1ABDA1&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;240&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-11&quot; fill=&quot;#34A4DC&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;280&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-10&quot; fill=&quot;#5978B6&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;320&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-9&quot; fill=&quot;#5959B5&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;360&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-8&quot; fill=&quot;#9759B6&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;400&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-7&quot; fill=&quot;#B65997&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;440&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-14&quot; fill=&quot;#3D424E&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;480&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+            &lt;rect id=&quot;Rectangle-13&quot; fill=&quot;#F0F0F3&quot; sketch:type=&quot;MSShapeGroup&quot; x=&quot;520&quot; y=&quot;0&quot; width=&quot;40&quot; height=&quot;40&quot;&gt;&lt;/rect&gt;
+        &lt;/g&gt;
+    &lt;/g&gt;
+&lt;/svg&gt;
+&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/colors-in-design-plus-code&quot;&gt;Design + Code 里的颜色&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on October 03, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Developing iOS 7 Apps for iPhone and iPad - 学习笔记]]></title>
+  <link>http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</link>
+  <id>http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</id>
+  <published>2014-09-20T20:33:00+08:00</published>
+  <updated>2014-09-20T20:33:00+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri>http://blog.wildcat.io</uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;lecture-4---foundation-and-attributed-strings&quot;&gt;Lecture 4 - Foundation and Attributed Strings&lt;/h2&gt;
+
+&lt;h3 id=&quot;id&quot;&gt;1. 强制类型转换是不安全的（它会欺骗编译器），在做强制类型转换之前，我们必须检查这个id指向的对象来自哪个类。&lt;/h3&gt;
+&lt;p&gt;Casting is unsafe, we have to check which class the id is from before doing this.
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;err&quot;&gt;￼&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@interface&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;@end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;@interface&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Ship&lt;/span&gt; : &lt;span class=&quot;nc&quot;&gt;Vehicle&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;@end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Ship&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Ship&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Vehicle&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;someMethodNameThatNoObjectAnywhereRespondsTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Object Typing&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;￼￼&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;@&amp;quot;hello&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Ship&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;helloShip&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Ship&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;helloShip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// We’ve forced the compiler to ignore the object type by “casting” in line. “All’s well,” the compiler thinks. Guaranteed crash at runtime.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;nsobejct--description-&quot;&gt;2. NSObejct 的 description 方法&lt;/h3&gt;
+&lt;p&gt;description method of NSObject&lt;br /&gt;
+为了比如调试的目的，实现这个方法是很方便的。
+It’s very convient to implement this method in your custom class, for purpose such as debugging.&lt;/p&gt;
+
+&lt;h3 id=&quot;nsobject--copy--mutablecopy-&quot;&gt;3. NSObject 的 copy 和 mutablecopy 方法&lt;/h3&gt;
+&lt;p&gt;copy and mutablecopy methods of NSObejct &lt;br /&gt;
+NSObject 或者其他子类 的这两个方法一般是没有被实现的，除了 &lt;strong&gt;NSArray&lt;/strong&gt; 和 &lt;strong&gt;NSDictionary&lt;/strong&gt; (包括 mutable 类型)&lt;br /&gt;
+These two method of NSObject and its subclass are not implemented in general except &lt;strong&gt;NSArray&lt;/strong&gt; &amp;amp; &lt;strong&gt;NSDictionary&lt;/strong&gt; (including mutable ones).  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// not all objects implement mechanism (raises exception if not)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mutableCopy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// not all objects implement mechanism (raises exception if not)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;selector&quot;&gt;4. 利用好 Selector&lt;/h3&gt;
+&lt;p&gt;Take advantage of Selector&lt;br /&gt;
+Method testing methods take a selector (SEL)
+Special @selector() directive turns the name of a method into a selector  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;respondsToSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;respondsToSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;shootAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;shootAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;SEL is the Objective-C “type” for a selector  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;kt&quot;&gt;SEL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shootSelector&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;SEL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shootAtSelector&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;shootAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:);&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;SEL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;moveToSelector&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;moveTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;withPenColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;如果你有一个 SEL 类型的变量，你也可以请求一个对象使用它…&lt;br /&gt;
+If you have a SEL, you can also ask an object to perform it …&lt;br /&gt;
+Using the &lt;code&gt;performSelector:&lt;/code&gt; or &lt;code&gt;performSelector:withObject: methods in NSObject [obj performSelector:shootSelector];&lt;/code&gt;
+&lt;code&gt;[obj performSelector:shootAtSelector withObject:coordinate];&lt;/code&gt;&lt;br /&gt;
+Using makeObjectsPerformSelector: methods in NSArray&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;makeObjectsPerformSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shootSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// cool, huh?&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;makeObjectsPerformSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shootAtSelector&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;withObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// target is an id&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;￼In UIButton, &lt;code&gt;- (void)addTarget:(id)anObject action:(SEL)action ...;&lt;/code&gt; &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addTarget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;digitPressed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;property-list&quot;&gt;5. 当心 Property List&lt;/h3&gt;
+&lt;p&gt;Take care of Property List &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The term “Property List” just means a collection of collections &lt;br /&gt;
+It’s just a phrase (not a language thing). It means any graph of objects containing only:&lt;br /&gt;
+NSArray, NSDictionary, NSNumber, NSString, NSDate, NSData (or mutable subclasses thereof) &lt;/li&gt;
+  &lt;li&gt;An NSArray is a Property List if all its members are too
+So an NSArray of NSString is a Property List.
+So is an NSArray of NSArray as long as those NSArray’s members are Property Lists.&lt;/li&gt;
+  &lt;li&gt;An NSDictionary is one only if all keys and values are too&lt;br /&gt;
+An NSArray of NSDictionarys whose keys are NSStrings and values are NSNumbers is one.&lt;/li&gt;
+  &lt;li&gt;Why define this term?
+Because the SDK has a number of methods which operate on Property Lists.
+Usually to read them from somewhere or write them out to somewhere. Example:
+&lt;code&gt;- (void)writeToFile:(NSString *)path atomically:(BOOL)atom;&lt;/code&gt;&lt;br /&gt;
+This can (only) be sent to an NSArray or NSDictionary that contains only Property List objects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lecture-5---protocol-block-animation&quot;&gt;Lecture 5 - Protocol, Block, Animation&lt;/h2&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;1. 协议略&lt;/h3&gt;
+
+&lt;h3 id=&quot;block--block-&quot;&gt;2. Block 外部变量是只读的，如果想实现读写，变量前需要加 __block 关键字&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;k&quot;&gt;__block&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stoppedEarly&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NO&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stopValue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;53.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aDictionary&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;enumerateKeysAndObjectsUsingBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(@&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([@&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ENOUGH&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;”&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;isEqualToString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doubleValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stopValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;￼&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stop&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;YES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;stoppedEarly&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;YES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// this is legal now&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;block-block&quot;&gt;3. Block 会对调用的对象产生强引用，直到Block执行结束。这也容易导致循环引用。&lt;/h3&gt;
+&lt;p&gt;正确做法：  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;k&quot;&gt;__weak&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MyClass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;weakSelf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// even though self is strong, weakSelf is weak&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;we&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reference&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weakSelf&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inside&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strongly&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;point&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myBlocks&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;weakSelf&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;lecture-9---animation--autolayout&quot;&gt;Lecture 9 - Animation &amp;amp; Autolayout&lt;/h2&gt;
+
+&lt;h3 id=&quot;constraints&quot;&gt;1. 3种方法设置约束(Constraints)&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;ib里使用辅助线布局，然后使用 &lt;strong&gt;Reset to Suggested Constraints&lt;/strong&gt; (⌥⇪⌘=)&lt;/li&gt;
+  &lt;li&gt;使用ib里的 &lt;strong&gt;Add New (Alignment) Constraints&lt;/strong&gt; 按钮&lt;/li&gt;
+  &lt;li&gt;按住 Control(⌃) 从一个 View 拖动到另一个 View&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;2. 动画的几种类型&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;UIView的几个重要的属性的动画  Animation of important UIView properties 
+&lt;strong&gt;注意： 事实上，属性的改变是立刻执行的，但是屏幕上却是慢慢变化。&lt;/strong&gt; 
+&lt;strong&gt;IMPORTANT: The changes are made immediately, but appear on-screen over time (i.e. not instantly).&lt;/strong&gt;&lt;br /&gt;
+UIView‘s class method(s)  &lt;code&gt;animationWithDuration:...&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;UIView外形的任何改变的动画 Animation of the appearance of arbitrary changes to a UIView&lt;br /&gt;
+By flipping or dissolving or curling the entire view.
+UIView’s class method &lt;code&gt;transitionWithView:...&lt;/code&gt;  &lt;/li&gt;
+  &lt;li&gt;Dynamic Animator&lt;br /&gt;
+Specify the “physics” of animatable objects (usually UIViews).&lt;br /&gt;
+Gravity, pushing forces, attachments between objects, collision boundaries, etc. Let the physics happen!  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;uiview-&quot;&gt;3. UIView 动画&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Changes to certain UIView properties can be animated over time&lt;br /&gt;
+&lt;strong&gt;frame&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;transform&lt;/strong&gt; (translation, rotation and scale)&lt;br /&gt;
+&lt;strong&gt;alpha&lt;/strong&gt; (opacity)  &lt;/li&gt;
+  &lt;li&gt;Done with UIView class method and blocks&lt;br /&gt;
+The class method takes animation parameters and an animation block as arguments.
+The animation block contains the code that makes the changes to the UIView(s).
+Most also have a “completion block” to be executed when the animation is done.
+The changes inside the block are made immediately (even though they will appear “over time”).   &lt;/li&gt;
+  &lt;li&gt;Animation class method in UIView  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;animateWithDuration:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSTimeInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;duration&lt;/span&gt;
+                      &lt;span class=&quot;nf&quot;&gt;delay:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSTimeInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;delay&lt;/span&gt;
+                    &lt;span class=&quot;nf&quot;&gt;options:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIViewAnimationOptions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;options&lt;/span&gt;
+                 &lt;span class=&quot;nf&quot;&gt;animations:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;animations&lt;/span&gt;
+                 &lt;span class=&quot;nf&quot;&gt;completion:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;finished&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UIViewAnimationOptions  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;n&quot;&gt;BeginFromCurrentState&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// interrupt other, in-progress animations of these properties&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;AllowUserInteraction&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// allow gestures to get processed while animation is in progress&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;LayoutSubviews&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// animate the relayout of subviews along with a parent’s animation&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;Repeat&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// repeat indefinitely&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;Autoreverse&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// play animation forwards, then backwards&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;OverrideInheritedDuration&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// if not set, use duration of any in-progress animation&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;OverrideInheritedCurve&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// if not set, use curve (e.g. ease-in/out) of in-progress animation&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;AllowAnimatedContent&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// if not set, just interpolate between current and end state image&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;CurveEaseInEaseOut&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// slower at the beginning, normal throughout, then slow at end&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;CurveEaseIn&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// slower at the beginning, but then constant through the rest&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;CurveLinear&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// same speed throughout&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Translation Animation&lt;br /&gt;
+&lt;strong&gt;Sometimes you want to make an entire view modification at once&lt;/strong&gt; &lt;br /&gt;
+By flipping view over&lt;code&gt;UIViewAnimationOptionsTransitionFlipFrom{Left,Right,Top,Bottom}&lt;/code&gt;&lt;br /&gt;
+Dissolving from old to new state &lt;code&gt;UIViewAnimationOptionsTransitionCrossDissolve&lt;/code&gt;&lt;br /&gt;
+Curling up or down &lt;code&gt;UIViewAnimationOptionsTransitionCurl{Up,Down}&lt;/code&gt;&lt;br /&gt;
+Just put the changes inside the animations block of this UIView class method …&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;transitionWithView:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIView&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;view&lt;/span&gt;
+                  &lt;span class=&quot;nf&quot;&gt;duration:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSTimeInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;duration&lt;/span&gt;
+                   &lt;span class=&quot;nf&quot;&gt;options:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIViewAnimationOptions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;options&lt;/span&gt;
+                &lt;span class=&quot;nf&quot;&gt;animations:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;animations&lt;/span&gt;
+                &lt;span class=&quot;nf&quot;&gt;completion:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;finished&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Animating changes to the view hierarchy is slightly different&lt;/strong&gt;&lt;br /&gt;
+Animate swapping the replacement of one view with another in the view hierarchy.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;transitionFromView:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIView&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;fromView&lt;/span&gt;
+                    &lt;span class=&quot;nf&quot;&gt;toView:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIView&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;toView&lt;/span&gt;
+                  &lt;span class=&quot;nf&quot;&gt;duration:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSTimeInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;duration&lt;/span&gt;
+                   &lt;span class=&quot;nf&quot;&gt;options:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIViewAnimationOptions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;options&lt;/span&gt;
+                &lt;span class=&quot;nf&quot;&gt;completion:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;finished&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Include &lt;code&gt;UIViewAnimationOptionShowHideTransitionViews&lt;/code&gt; if you want to use the hidden property. &lt;br /&gt;
+Otherwise it will actually remove fromView from the view hierarchy and add toView.&lt;/p&gt;
+
+&lt;h2 id=&quot;lecture---17-camera-core-motion-application-lifecycle&quot;&gt;Lecture - 17 Camera, Core Motion, Application Lifecycle&lt;/h2&gt;
+
+&lt;h3 id=&quot;app--ui-&quot;&gt;1. 当 App 的 UI 开始/结束时收到的事件&lt;/h3&gt;
+&lt;p&gt;When your application’s UI starts/stops receiving events …  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;applicationDidBecomeActive:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIApplication&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;sender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;applicationWillResignActive:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIApplication&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;sender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;任何对象都可以接收到如下的通知中心广播。Everyone gets these radio station broadcasts …&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;n&quot;&gt;UIApplicationDidBecomeActiveNotification&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UIApplicationWillResignActiveNotification&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;它有可能发生在用户切换到其他 app 或者一个电话打了进来。&lt;br /&gt;
+These might happen because user switched to another app or maybe a phone call come in. Use these notifications to pause doing stuff in your UI and then restart it later.  &lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;2. 当程序进入后台 / 前台…&lt;/h3&gt;
+&lt;p&gt;When you enter the background …&lt;br /&gt;
+你只有短短的几秒时间去处理余下工作。&lt;br /&gt;
+You only get a few seconds to respond to this.&lt;br /&gt;
+&lt;code&gt;- (void)applicationDidEnterBackground:(UIApplication *)sender;&lt;/code&gt;&lt;br /&gt;
+and &lt;code&gt;UIApplicationDidEnterBackgroundNotification&lt;/code&gt;&lt;br /&gt;
+如果你需要更多时间：&lt;br /&gt;
+If you need more time, it is possible (see beginBackgroundTaskWithExpirationHandler:).! This is a notification for you to clean up any significant resource usage, etc.!&lt;br /&gt;
+&lt;strong&gt;You find out when you get back to the foreground too …&lt;/strong&gt;&lt;br /&gt;
+our Application Delegate gets …&lt;br /&gt;
+&lt;code&gt;- (void)applicationWillEnterForeground:(UIApplication *)sender;&lt;/code&gt; and &lt;code&gt;UIApplicationWillEnterForegroundNotification&lt;/code&gt;&lt;br /&gt;
+Generally you undo whatever you did in DidEnterBackground&lt;br /&gt;
+You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after receiving the above.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note&quot;&gt;Developing iOS 7 Apps for iPhone and iPad - 学习笔记&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on September 20, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Swift 中如何缩短 Range<String.Index> 的长度]]></title>
+  <link>http://blog.wildcat.io/2014/how-to-reduce-the-length-of-range-string-index-in-swift</link>
+  <id>http://blog.wildcat.io/2014/how-to-reduce-the-length-of-range-string-index-in-swift</id>
+  <published>2014-09-15T13:55:00+08:00</published>
+  <updated>2014-09-15T13:55:00+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri>http://blog.wildcat.io</uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;p&gt;今天写一个小项目的时候遇到一个这样的需求，截取一个类似 &lt;code&gt;Michael: Hello, World!&lt;/code&gt; 的字符串中的名字部分，当然，代码如下： &lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Note: You have to import Foundation in Playground  &lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rawString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Michael: Hello, World!&amp;quot;&lt;/span&gt;  
+&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rawString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rangeOfString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;^&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;w{0,10}:&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RegularExpressionSearch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;range&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;n&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rawString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;substringWithRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;  
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;  
+&lt;span class=&quot;c1&quot;&gt;// Output:  &lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Michael:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;那么，这个 &lt;code&gt;range&lt;/code&gt; 的长度如何减少1呢？&lt;br /&gt;
+这里的 &lt;code&gt;range&lt;/code&gt; 的类型是 &lt;code&gt;Range&amp;lt;String.Index&amp;gt;&lt;/code&gt; ，它无法直接减1，下面的做法是错误的：  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  
+&lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;不过， &lt;code&gt;Range&amp;lt;SomeTypes&amp;gt;.startIndex&lt;/code&gt; 或者 &lt;code&gt;Range&amp;lt;SomeTypes&amp;gt;.endIndex&lt;/code&gt; 有 &lt;code&gt;predecessor()&lt;/code&gt; 和 &lt;code&gt;successor()&lt;/code&gt; 方法，分别为 向前 和 向后一位。这样，我们的需求就可以实现了：  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;range&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;  
+    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subRange&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;startIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predecessor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;  
+    &lt;span class=&quot;c1&quot;&gt;// 这一行可以简写为：  &lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subRange2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;startIndex&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predecessor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;  
+    &lt;span class=&quot;n&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rawString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;substringWithRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;  
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;  
+&lt;span class=&quot;c1&quot;&gt;// Output:  &lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Michael&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;每次都需要调用 &lt;code&gt;predecessor()&lt;/code&gt; 和 &lt;code&gt;successor()&lt;/code&gt; 挺麻烦，但是这种需求可以通过重载操作符实现类似 &lt;code&gt;range!.endIndex - 1&lt;/code&gt; 的效果，这个坑等以后再填吧。&lt;/p&gt;
+
+&lt;p&gt;附： &lt;a href=&quot;http://stackoverflow.com/questions/24044851/how-do-you-use-string-substringwithrange-or-how-do-ranges-work-in-swift&quot;&gt;http://stackoverflow.com/questions/24044851/how-do-you-use-string-substringwithrange-or-how-do-ranges-work-in-swift&lt;/a&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/how-to-reduce-the-length-of-range-string-index-in-swift&quot;&gt;Swift 中如何缩短 Range<String.Index> 的长度&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on September 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[写在大二开始前夜]]></title>
+  <link>http://blog.wildcat.io/2014/writing-before-becoming-a-sophomore</link>
+  <id>http://blog.wildcat.io/2014/writing-before-becoming-a-sophomore</id>
+  <published>2014-09-12T06:18:54+08:00</published>
+  <updated>2014-09-12T06:18:54+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri>http://blog.wildcat.io</uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;p&gt;两个多月的暑假就这么结束了，感觉自己似乎啥也没做，或者说啥也没做好。  &lt;/p&gt;
+
+&lt;p&gt;先回想下过去。 &lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;he&quot;&gt;He&lt;/h2&gt;
+&lt;p&gt;人生的第一次手术经历就这样过去了（虽然是个不值一提的小手术），这一次是真真切切体会到了有个当医生的父亲的好处，不用说他能为自己提供的各种便利，仅仅是作为父亲对自己康复状况的把握，都会让人感觉到很贴心、有很安全感。生命中的至亲能为自己的健康保驾护航真是一件幸福的事情。&lt;br /&gt;
+但是他总很忙。当今中国，从事一个需要专注与单纯的职业的他，无可奈何地承受了太多，医患矛盾尖锐的今天，心里隐隐约约总为他担心。&lt;br /&gt;
+只希望自己能快点成长，等他们需要照顾的时候，自己有能力让他们感到安全感。  &lt;/p&gt;
+
+&lt;h2 id=&quot;coding&quot;&gt;Coding&lt;/h2&gt;
+&lt;p&gt;最近看到开源中国的一个微信——&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&amp;amp;mid=200514795&amp;amp;idx=3&amp;amp;sn=6b3538dc6b51eb9c510aac05251155fc#rd&quot;&gt;《编程真实的样子》&lt;/a&gt;，最后的漫画真是让人深有感触。以往的自己对于编码的热情在于自己可以用计算机做各种各样想做的事情，但是由浅入深，慢慢发现，真正想完成一个有意义的项目，所要花费的时间超乎想象；而这个过程却不是往往充满趣味，更多的是寂寞与枯燥。  &lt;/p&gt;
+
+&lt;h2 id=&quot;ielts&quot;&gt;IELTS&lt;/h2&gt;
+&lt;p&gt;家里的确不是一个适合发奋图强的地方，过于优越的生活环境会让人变得没有战斗力。虽然不得不说小手术影响了雅思复习的进度，但是自己确实没有努力。 &lt;/p&gt;
+
+&lt;p&gt;现在已经接近晚上10点，明日（9月11日）可以视作新学年的开始。回到了离别两月的校园，周围还是没有一点儿变化——还是依旧争相浪费自己的生命——自己应该随时保持清醒。  &lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;新学年计划&lt;/h2&gt;
+&lt;p&gt;心里的想法很多，但是我觉得还是写出来让大家看才有动力、压力去实现：  &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;雅思达到6分  &lt;/li&gt;
+  &lt;li&gt;每月至少3篇博客更新（尝试英文写作、尝试翻译技术文章）  &lt;/li&gt;
+  &lt;li&gt;实现 &lt;a href=&quot;https://v2ex.com&quot;&gt;V2EX&lt;/a&gt; Swift iOS 客户端&lt;/li&gt;
+  &lt;li&gt;完成第一个 iOS 付费 App 并达到 200 以上装机量&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;嗯，就这么多吧，是时候培养睡意休息了，快点好起来！&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/writing-before-becoming-a-sophomore&quot;&gt;写在大二开始前夜&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on September 12, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>

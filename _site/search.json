@@ -1,0 +1,51 @@
+[
+	
+		{
+		  "title"      : "迁移到 Jekyll",
+		  "category"   : "diary",
+		  "url"        : "http://blog.wildcat.io/2014/migrate-to-jekyll",
+		  "date"       : "2014-10-26 11:49:00 +0800",
+		  "shortdate"  : "October 26, 2014"
+		} ,
+	
+		{
+		  "title"      : "Rails 部署时遇到的问题（其实是 MIME type 错误）",
+		  "category"   : "Development",
+		  "url"        : "http://blog.wildcat.io/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type",
+		  "date"       : "2014-10-13 22:14:00 +0800",
+		  "shortdate"  : "October 13, 2014"
+		} ,
+	
+		{
+		  "title"      : "Design + Code 里的颜色",
+		  "category"   : "Design",
+		  "url"        : "http://blog.wildcat.io/2014/colors-in-design-plus-code",
+		  "date"       : "2014-10-03 18:23:00 +0800",
+		  "shortdate"  : "October 03, 2014"
+		} ,
+	
+		{
+		  "title"      : "Developing iOS 7 Apps for iPhone and iPad - 学习笔记",
+		  "category"   : "机械境",
+		  "url"        : "http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note",
+		  "date"       : "2014-09-20 20:33:00 +0800",
+		  "shortdate"  : "September 20, 2014"
+		} ,
+	
+		{
+		  "title"      : "Swift 中如何缩短 Range&lt;String.Index&gt; 的长度",
+		  "category"   : "机械境",
+		  "url"        : "http://blog.wildcat.io/2014/how-to-reduce-the-length-of-range-string-index-in-swift",
+		  "date"       : "2014-09-15 13:55:00 +0800",
+		  "shortdate"  : "September 15, 2014"
+		} ,
+	
+		{
+		  "title"      : "写在大二开始前夜",
+		  "category"   : "极乐园",
+		  "url"        : "http://blog.wildcat.io/2014/writing-before-becoming-a-sophomore",
+		  "date"       : "2014-09-12 06:18:54 +0800",
+		  "shortdate"  : "September 12, 2014"
+		} 
+	
+]

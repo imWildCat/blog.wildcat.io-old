@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<!--
+====================================================
+    __  ____  ______________  _______ ___    __ 
+   / / / /  |/  / ____/   \ \/ / ___//   |  / / 
+  / /_/ / /|_/ / /_  / /| |\  /\__ \/ /| | / /  
+ / __  / /  / / __/ / ___ |/ /___/ / ___ |/ /___
+/_/ /_/_/  /_/_/   /_/  |_/_//____/_/  |_/_____/
+                                                     
+====================================================
+Owner Name: Hossain Mohammad Faysal
+Profile: https://www.facebook.com/hmfaysal
+Version: 1.1
+Description: Awesome dude, awesome life
+====================================================
+-->
+<head>
+<meta charset="utf-8">
+<title>Developing iOS 7 Apps for iPhone and iPad - 学习笔记 &#8211; WildCat's Blog</title>
+<meta name="description" content="钝鸟先飞，大器晚成">
+<meta name="keywords" content="">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://blog.wildcat.io/images/cat-assets/logo-large.png">
+<meta name="twitter:title" content="Developing iOS 7 Apps for iPhone and iPad - 学习笔记">
+<meta name="twitter:description" content="钝鸟先飞，大器晚成">
+<meta name="twitter:creator" content="@wildcat_io">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Developing iOS 7 Apps for iPhone and iPad - 学习笔记">
+<meta property="og:description" content="钝鸟先飞，大器晚成">
+<meta property="og:url" content="http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note">
+<meta property="og:site_name" content="WildCat's Blog">
+<meta property="og:image" content="http://blog.wildcat.io/images/cat-assets/campus-cuiyuan.jpg">
+
+
+
+
+
+<link rel="canonical" href="http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note">
+<link href="http://blog.wildcat.io/feed.xml" type="application/atom+xml" rel="alternate" title="WildCat's Blog Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" type="text/css" href="http://blog.wildcat.io/assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="http://blog.wildcat.io/assets/css/style.css" />
+
+<div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="Search...">
+        <i class="icon-remove-sign"></i>
+        <ul class="search-results post-list"></ul><!-- /.search-results -->
+    </div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
+
+
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://blog.wildcat.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://blog.wildcat.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://blog.wildcat.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://blog.wildcat.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://blog.wildcat.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.wildcat.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+<body class="post-template" itemscope itemtype="http://schema.org/WebPage">  
+<div id="fade"></div>
+<a id="slide" class="animated fade"></a>
+<aside id="sidebar">
+    <nav id="navigation">
+    <h2>MENU</h2>
+    <hr>
+
+            <li>
+                    <a href="http://blog.wildcat.io/">Home</a>
+                 </li>
+
+            <li>
+                    <a href="http://blog.wildcat.io/categories">Categories</a>
+                 </li>
+
+            <li>
+                    <a href="http://blog.wildcat.io/about">About</a>
+                 </li>
+            
+           <li><a href="http://blog.wildcat.io/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+    </nav>
+    
+    
+</aside>
+
+<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url(http://blog.wildcat.io/images/cat-assets/campus-cuiyuan.jpg)" itemscope itemtype="http://schema.org/Organization">
+
+
+    <button class="menu-button animated fade dosearch">
+        <i class="icon-search"></i>
+    </button>
+
+
+    <div class="inner">
+        <div class="container">
+            <a class="brand" href="http://blog.wildcat.io" role="banner" itemprop="url">
+
+                <img itemprop="logo" src="http://blog.wildcat.io/images/cat-assets/logo-large.png" alt="WildCat's Blog Logo" />
+
+            <h1 class="blog-title light" itemprop="name">
+                WildCat's Blog
+            </h1>
+                
+            </a>
+        </div>
+    </div>
+    
+    
+    <div class="decor-wrapper">
+        <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+
+            <path class="medium left" d="M0 100 L50 50 L0 33.3" fill="rgba(255,255,255, .3)"></path>
+            <path class="medium right" d="M100 100 L50 50 L100 33.3" fill="rgba(255,255,255, .3)"></path>
+
+            <path class="small left" d="M0 100 L50 50 L0 66.6" fill="rgba(255,255,255, .5)"></path>
+            <path class="small right" d="M100 100 L50 50 L100 66.6" fill="rgba(255,255,255, .5)"></path>
+
+            <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
+
+            <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
+
+        </svg>
+    </div>
+    
+</header>
+<div id="main" class="content" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+    <div class="container">
+        <div class="row">
+            <article class="post col-md-8 col-md-offset-2 hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            
+            
+            
+            
+            
+                    <header class="post-header entry-header">
+                    
+                        
+                        <h1 class="post-title text-center hyper lighter bordered-bottom entry-title" itemprop="headline">Developing iOS 7 Apps for iPhone and iPad - 学习笔记</h1>
+                        
+                        <div class="cursive" style="color: #000; font-style:italic;"></div>
+                        <div class="post-info text-center small">
+                            <span class="entry-date date published updated"><time datetime="2014-09-20T20:33:00+08:00" class="post-time" itemprop="datePublished">20 Sep 2014</time><span>
+                            in <span class="post-tags"><a href="http://blog.wildcat.io/categories/index.html#机械境" data-toggle="tooltip" title="Other posts from the 机械境 category" rel="tag">机械境</a></span>
+                        </div>
+                    </header>
+                    <div class="post-body bordered-bottom" itemprop="description">
+                        
+                        <h2 id="lecture-4---foundation-and-attributed-strings">Lecture 4 - Foundation and Attributed Strings</h2>
+
+<h3 id="id">1. 强制类型转换是不安全的（它会欺骗编译器），在做强制类型转换之前，我们必须检查这个id指向的对象来自哪个类。</h3>
+<p>Casting is unsafe, we have to check which class the id is from before doing this.
+<!-- more --></p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="err">￼</span><span class="k">@interface</span> <span class="nc">Vehicle</span>
+<span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">move</span><span class="p">;</span>
+<span class="k">@end</span>
+<span class="k">@interface</span> <span class="nc">Ship</span> : <span class="nc">Vehicle</span>
+<span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">shoot</span><span class="p">;</span>
+<span class="k">@end</span>
+<span class="n">Ship</span> <span class="o">*</span><span class="n">s</span> <span class="o">=</span> <span class="p">[[</span><span class="n">Ship</span> <span class="n">alloc</span><span class="p">]</span> <span class="n">init</span><span class="p">];</span>
+<span class="p">[</span><span class="n">s</span> <span class="n">shoot</span><span class="p">];</span>
+<span class="p">[</span><span class="n">s</span> <span class="n">move</span><span class="p">];</span>
+<span class="n">Vehicle</span> <span class="o">*</span><span class="n">v</span> <span class="o">=</span> <span class="n">s</span><span class="p">;</span>
+<span class="p">[</span><span class="n">v</span> <span class="n">shoot</span><span class="p">];</span>
+<span class="kt">id</span> <span class="n">obj</span> <span class="o">=</span> <span class="p">...;</span>
+<span class="p">[</span><span class="n">obj</span> <span class="n">shoot</span><span class="p">];</span>
+<span class="p">[</span><span class="n">obj</span> <span class="n">someMethodNameThatNoObjectAnywhereRespondsTo</span><span class="p">];</span>
+<span class="c1">// Object Typing</span>
+<span class="err">￼￼</span><span class="bp">NSString</span> <span class="o">*</span><span class="n">hello</span> <span class="o">=</span> <span class="s">@&quot;hello&quot;</span><span class="p">;</span>
+<span class="p">[</span><span class="n">hello</span> <span class="n">shoot</span><span class="p">];</span>
+<span class="n">Ship</span> <span class="o">*</span><span class="n">helloShip</span> <span class="o">=</span> <span class="p">(</span><span class="n">Ship</span> <span class="o">*</span><span class="p">)</span><span class="n">hello</span><span class="p">;</span>
+<span class="p">[</span><span class="n">helloShip</span> <span class="n">shoot</span><span class="p">];</span> <span class="c1">// We’ve forced the compiler to ignore the object type by “casting” in line. “All’s well,” the compiler thinks. Guaranteed crash at runtime.</span></code></pre></div>
+
+<h3 id="nsobejct--description-">2. NSObejct 的 description 方法</h3>
+<p>description method of NSObject<br />
+为了比如调试的目的，实现这个方法是很方便的。
+It’s very convient to implement this method in your custom class, for purpose such as debugging.</p>
+
+<h3 id="nsobject--copy--mutablecopy-">3. NSObject 的 copy 和 mutablecopy 方法</h3>
+<p>copy and mutablecopy methods of NSObejct <br />
+NSObject 或者其他子类 的这两个方法一般是没有被实现的，除了 <strong>NSArray</strong> 和 <strong>NSDictionary</strong> (包括 mutable 类型)<br />
+These two method of NSObject and its subclass are not implemented in general except <strong>NSArray</strong> &amp; <strong>NSDictionary</strong> (including mutable ones).  </p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">-</span> <span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nf">copy</span><span class="p">;</span> <span class="c1">// not all objects implement mechanism (raises exception if not)</span>
+<span class="p">-</span> <span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nf">mutableCopy</span><span class="p">;</span> <span class="c1">// not all objects implement mechanism (raises exception if not)</span></code></pre></div>
+
+<h3 id="selector">4. 利用好 Selector</h3>
+<p>Take advantage of Selector<br />
+Method testing methods take a selector (SEL)
+Special @selector() directive turns the name of a method into a selector  </p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">if</span> <span class="p">([</span><span class="n">obj</span> <span class="nl">respondsToSelector</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="n">shoot</span><span class="p">)])</span> <span class="p">{</span>
+    <span class="p">[</span><span class="n">obj</span> <span class="n">shoot</span><span class="p">];</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">([</span><span class="n">obj</span> <span class="nl">respondsToSelector</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="nl">shootAt</span><span class="p">:)])</span> <span class="p">{</span>
+    <span class="p">[</span><span class="n">obj</span> <span class="nl">shootAt</span><span class="p">:</span><span class="n">target</span><span class="p">];</span>
+<span class="p">}</span></code></pre></div>
+
+<p>SEL is the Objective-C “type” for a selector  </p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="kt">SEL</span> <span class="n">shootSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="n">shoot</span><span class="p">);</span>
+<span class="kt">SEL</span> <span class="n">shootAtSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="nl">shootAt</span><span class="p">:);</span>
+<span class="kt">SEL</span> <span class="n">moveToSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="nl">moveTo</span><span class="p">:</span><span class="nl">withPenColor</span><span class="p">:);</span></code></pre></div>
+
+<p>如果你有一个 SEL 类型的变量，你也可以请求一个对象使用它…<br />
+If you have a SEL, you can also ask an object to perform it …<br />
+Using the <code>performSelector:</code> or <code>performSelector:withObject: methods in NSObject [obj performSelector:shootSelector];</code>
+<code>[obj performSelector:shootAtSelector withObject:coordinate];</code><br />
+Using makeObjectsPerformSelector: methods in NSArray</p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">[</span><span class="n">array</span> <span class="nl">makeObjectsPerformSelector</span><span class="p">:</span><span class="n">shootSelector</span><span class="p">];</span> <span class="c1">// cool, huh?</span>
+<span class="p">[</span><span class="n">array</span> <span class="nl">makeObjectsPerformSelector</span><span class="p">:</span><span class="n">shootAtSelector</span> <span class="nl">withObject</span><span class="p">:</span><span class="n">target</span><span class="p">];</span> <span class="c1">// target is an id</span></code></pre></div>
+
+<p>￼In UIButton, <code>- (void)addTarget:(id)anObject action:(SEL)action ...;</code> </p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">[</span><span class="n">button</span> <span class="nl">addTarget</span><span class="p">:</span><span class="nb">self</span> <span class="nl">action</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="nl">digitPressed</span><span class="p">:)</span> <span class="p">...];</span></code></pre></div>
+
+<h3 id="property-list">5. 当心 Property List</h3>
+<p>Take care of Property List </p>
+
+<ul>
+  <li>The term “Property List” just means a collection of collections <br />
+It’s just a phrase (not a language thing). It means any graph of objects containing only:<br />
+NSArray, NSDictionary, NSNumber, NSString, NSDate, NSData (or mutable subclasses thereof) </li>
+  <li>An NSArray is a Property List if all its members are too
+So an NSArray of NSString is a Property List.
+So is an NSArray of NSArray as long as those NSArray’s members are Property Lists.</li>
+  <li>An NSDictionary is one only if all keys and values are too<br />
+An NSArray of NSDictionarys whose keys are NSStrings and values are NSNumbers is one.</li>
+  <li>Why define this term?
+Because the SDK has a number of methods which operate on Property Lists.
+Usually to read them from somewhere or write them out to somewhere. Example:
+<code>- (void)writeToFile:(NSString *)path atomically:(BOOL)atom;</code><br />
+This can (only) be sent to an NSArray or NSDictionary that contains only Property List objects.</li>
+</ul>
+
+<h2 id="lecture-5---protocol-block-animation">Lecture 5 - Protocol, Block, Animation</h2>
+
+<h3 id="section">1. 协议略</h3>
+
+<h3 id="block--block-">2. Block 外部变量是只读的，如果想实现读写，变量前需要加 __block 关键字</h3>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">__block</span> <span class="kt">BOOL</span> <span class="n">stoppedEarly</span> <span class="o">=</span> <span class="nb">NO</span><span class="p">;</span>
+<span class="kt">double</span> <span class="n">stopValue</span> <span class="o">=</span> <span class="mf">53.5</span><span class="p">;</span>
+<span class="p">[</span><span class="n">aDictionary</span> <span class="nl">enumerateKeysAndObjectsUsingBlock</span><span class="p">:</span><span class="o">^</span><span class="p">(</span><span class="kt">id</span> <span class="n">key</span><span class="p">,</span> <span class="kt">id</span> <span class="n">value</span><span class="p">,</span> <span class="kt">BOOL</span> <span class="o">*</span><span class="n">stop</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">NSLog</span><span class="p">(@</span><span class="err">“</span><span class="n">value</span> <span class="k">for</span> <span class="n">key</span> <span class="o">%</span><span class="p">@</span> <span class="n">is</span> <span class="o">%</span><span class="p">@</span><span class="err">”</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">([@</span><span class="err">“</span><span class="n">ENOUGH</span><span class="err">”</span> <span class="nl">isEqualToString</span><span class="p">:</span><span class="n">key</span><span class="p">]</span> <span class="o">||</span> <span class="p">([</span><span class="n">value</span> <span class="n">doubleValue</span><span class="p">]</span> <span class="o">==</span> <span class="n">stopValue</span><span class="p">))</span> <span class="p">{</span>
+<span class="err">￼</span><span class="o">*</span><span class="n">stop</span> <span class="o">=</span> <span class="nb">YES</span><span class="p">;</span>
+        <span class="n">stoppedEarly</span> <span class="o">=</span> <span class="nb">YES</span><span class="p">;</span>  <span class="c1">// this is legal now</span>
+<span class="p">}</span> <span class="p">}];</span></code></pre></div>
+
+<h3 id="block-block">3. Block 会对调用的对象产生强引用，直到Block执行结束。这也容易导致循环引用。</h3>
+<p>正确做法：  </p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">__weak</span> <span class="n">MyClass</span> <span class="o">*</span><span class="n">weakSelf</span> <span class="o">=</span> <span class="nb">self</span><span class="p">;</span> <span class="c1">// even though self is strong, weakSelf is weak</span>
+<span class="n">Now</span> <span class="k">if</span> <span class="n">we</span> <span class="n">reference</span> <span class="n">weakSelf</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">block</span><span class="p">,</span> <span class="n">then</span> <span class="n">the</span> <span class="n">block</span> <span class="n">will</span> <span class="n">not</span> <span class="n">strongly</span> <span class="n">point</span> <span class="n">to</span> <span class="nb">self</span> <span class="p">...</span> <span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">myBlocks</span> <span class="nl">addObject</span><span class="p">:</span><span class="o">^</span> <span class="p">{</span>
+    <span class="p">[</span><span class="n">weakSelf</span> <span class="n">doSomething</span><span class="p">];</span>
+<span class="p">}];</span></code></pre></div>
+
+<h2 id="lecture-9---animation--autolayout">Lecture 9 - Animation &amp; Autolayout</h2>
+
+<h3 id="constraints">1. 3种方法设置约束(Constraints)</h3>
+<ol>
+  <li>ib里使用辅助线布局，然后使用 <strong>Reset to Suggested Constraints</strong> (⌥⇪⌘=)</li>
+  <li>使用ib里的 <strong>Add New (Alignment) Constraints</strong> 按钮</li>
+  <li>按住 Control(⌃) 从一个 View 拖动到另一个 View</li>
+</ol>
+
+<h3 id="section-1">2. 动画的几种类型</h3>
+<ol>
+  <li>UIView的几个重要的属性的动画  Animation of important UIView properties 
+<strong>注意： 事实上，属性的改变是立刻执行的，但是屏幕上却是慢慢变化。</strong> 
+<strong>IMPORTANT: The changes are made immediately, but appear on-screen over time (i.e. not instantly).</strong><br />
+UIView‘s class method(s)  <code>animationWithDuration:...</code></li>
+  <li>UIView外形的任何改变的动画 Animation of the appearance of arbitrary changes to a UIView<br />
+By flipping or dissolving or curling the entire view.
+UIView’s class method <code>transitionWithView:...</code>  </li>
+  <li>Dynamic Animator<br />
+Specify the “physics” of animatable objects (usually UIViews).<br />
+Gravity, pushing forces, attachments between objects, collision boundaries, etc. Let the physics happen!  </li>
+</ol>
+
+<h3 id="uiview-">3. UIView 动画</h3>
+<ul>
+  <li>Changes to certain UIView properties can be animated over time<br />
+<strong>frame</strong><br />
+<strong>transform</strong> (translation, rotation and scale)<br />
+<strong>alpha</strong> (opacity)  </li>
+  <li>Done with UIView class method and blocks<br />
+The class method takes animation parameters and an animation block as arguments.
+The animation block contains the code that makes the changes to the UIView(s).
+Most also have a “completion block” to be executed when the animation is done.
+The changes inside the block are made immediately (even though they will appear “over time”).   </li>
+  <li>Animation class method in UIView  </li>
+</ul>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">animateWithDuration:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">duration</span>
+                      <span class="nf">delay:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">delay</span>
+                    <span class="nf">options:</span><span class="p">(</span><span class="n">UIViewAnimationOptions</span><span class="p">)</span><span class="nv">options</span>
+                 <span class="nf">animations:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">animations</span>
+                 <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></div>
+
+<ul>
+  <li>UIViewAnimationOptions  </li>
+</ul>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="n">BeginFromCurrentState</span> <span class="c1">// interrupt other, in-progress animations of these properties</span>
+  <span class="n">AllowUserInteraction</span> <span class="c1">// allow gestures to get processed while animation is in progress</span>
+  <span class="n">LayoutSubviews</span> <span class="c1">// animate the relayout of subviews along with a parent’s animation</span>
+  <span class="n">Repeat</span> <span class="c1">// repeat indefinitely</span>
+  <span class="n">Autoreverse</span> <span class="c1">// play animation forwards, then backwards</span>
+  <span class="n">OverrideInheritedDuration</span> <span class="c1">// if not set, use duration of any in-progress animation</span>
+  <span class="n">OverrideInheritedCurve</span> <span class="c1">// if not set, use curve (e.g. ease-in/out) of in-progress animation</span>
+  <span class="n">AllowAnimatedContent</span> <span class="c1">// if not set, just interpolate between current and end state image</span>
+  <span class="n">CurveEaseInEaseOut</span> <span class="c1">// slower at the beginning, normal throughout, then slow at end</span>
+  <span class="n">CurveEaseIn</span> <span class="c1">// slower at the beginning, but then constant through the rest</span>
+  <span class="n">CurveLinear</span> <span class="c1">// same speed throughout</span></code></pre></div>
+
+<ul>
+  <li>Translation Animation<br />
+<strong>Sometimes you want to make an entire view modification at once</strong> <br />
+By flipping view over<code>UIViewAnimationOptionsTransitionFlipFrom{Left,Right,Top,Bottom}</code><br />
+Dissolving from old to new state <code>UIViewAnimationOptionsTransitionCrossDissolve</code><br />
+Curling up or down <code>UIViewAnimationOptionsTransitionCurl{Up,Down}</code><br />
+Just put the changes inside the animations block of this UIView class method …</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">transitionWithView:</span><span class="p">(</span><span class="bp">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">view</span>
+                  <span class="nf">duration:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">duration</span>
+                   <span class="nf">options:</span><span class="p">(</span><span class="n">UIViewAnimationOptions</span><span class="p">)</span><span class="nv">options</span>
+                <span class="nf">animations:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">animations</span>
+                <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></div>
+
+<p><strong>Animating changes to the view hierarchy is slightly different</strong><br />
+Animate swapping the replacement of one view with another in the view hierarchy.</p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">transitionFromView:</span><span class="p">(</span><span class="bp">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">fromView</span>
+                    <span class="nf">toView:</span><span class="p">(</span><span class="bp">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">toView</span>
+                  <span class="nf">duration:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">duration</span>
+                   <span class="nf">options:</span><span class="p">(</span><span class="n">UIViewAnimationOptions</span><span class="p">)</span><span class="nv">options</span>
+                <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></div>
+
+<p>Include <code>UIViewAnimationOptionShowHideTransitionViews</code> if you want to use the hidden property. <br />
+Otherwise it will actually remove fromView from the view hierarchy and add toView.</p>
+
+<h2 id="lecture---17-camera-core-motion-application-lifecycle">Lecture - 17 Camera, Core Motion, Application Lifecycle</h2>
+
+<h3 id="app--ui-">1. 当 App 的 UI 开始/结束时收到的事件</h3>
+<p>When your application’s UI starts/stops receiving events …  </p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationDidBecomeActive:</span><span class="p">(</span><span class="bp">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">sender</span><span class="p">;</span>
+<span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationWillResignActive:</span><span class="p">(</span><span class="bp">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">sender</span><span class="p">;</span></code></pre></div>
+
+<p>任何对象都可以接收到如下的通知中心广播。Everyone gets these radio station broadcasts …</p>
+
+<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="n">UIApplicationDidBecomeActiveNotification</span> <span class="n">UIApplicationWillResignActiveNotification</span></code></pre></div>
+
+<p>它有可能发生在用户切换到其他 app 或者一个电话打了进来。<br />
+These might happen because user switched to another app or maybe a phone call come in. Use these notifications to pause doing stuff in your UI and then restart it later.  </p>
+
+<h3 id="section-2">2. 当程序进入后台 / 前台…</h3>
+<p>When you enter the background …<br />
+你只有短短的几秒时间去处理余下工作。<br />
+You only get a few seconds to respond to this.<br />
+<code>- (void)applicationDidEnterBackground:(UIApplication *)sender;</code><br />
+and <code>UIApplicationDidEnterBackgroundNotification</code><br />
+如果你需要更多时间：<br />
+If you need more time, it is possible (see beginBackgroundTaskWithExpirationHandler:).! This is a notification for you to clean up any significant resource usage, etc.!<br />
+<strong>You find out when you get back to the foreground too …</strong><br />
+our Application Delegate gets …<br />
+<code>- (void)applicationWillEnterForeground:(UIApplication *)sender;</code> and <code>UIApplicationWillEnterForegroundNotification</code><br />
+Generally you undo whatever you did in DidEnterBackground<br />
+You’ll get <code>applicationDidBecomeActive:</code> soon after receiving the above.</p>
+
+                        <br>
+                    
+                    
+                    </div>
+        </div>
+                    <footer class="post-footer entry-meta">
+                        <div class="post-share text-center">
+    <p class="light small">
+        Share this post
+    </p>
+    <ul class="social-mini">
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=&quot;Developing iOS 7 Apps for iPhone and iPad - 学习笔记&quot;%20http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note%20via%20&#64;wildcat_io"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
+                <i class="icon-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a  href="https://www.facebook.com/sharer/sharer.php?u=http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
+                <i class="icon-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://plus.google.com/share?url=http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
+                <i class="icon-google-plus"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+                        <div class="post-author text-center">                       
+	        <img src="http://blog.wildcat.io/images/cat-assets/avatar_200.png" alt="WildCat's photo" itemprop="image" class="post-avatar img-circle img-responsive"/>    
+	    <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="http://blog.wildcat.io/about" title="About WildCat" itemprop="url">WildCat</a></span></h4>
+	    <p>Developer, Designer.</p>
+</div> 
+                        <div id="disqus_thread"></div><!-- /#disqus_thread -->
+                    </footer>
+            </article>
+    </div>
+</div>
+
+<footer id="footer"  class="blog-background overlay text-center align-middle animated from-top" style="background-image: url(http://blog.wildcat.io/images/cat-assets/campus-cuiyuan.jpg)" >
+
+
+    <div class="inner">
+        <div class="container">
+
+            <ul class="social-icons">
+            <li>
+                <a href="http://twitter.com/wildcat_io" data-toggle="tooltip" title="WildCat on Twitter" target="_blank">
+                    <i class="icon-twitter"></i>
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            <li>
+                <a href="http://github.com/imWildCat" data-toggle="tooltip" title="WildCat on Github" target="_blank">
+                    <i class="icon-github"></i>
+                </a>
+            </li>
+        </ul>
+            <div>
+                <a href="http://blog.wildcat.io/about/">WildCat</a> &copy; 2014 &bull; All rights reserved.
+            </div>
+            <ul class="menu-items">
+            
+            <li>
+                
+                    <a href="http://blog.wildcat.io/"><i class="icon-home"></i></a>&nbsp;&bull;
+                 
+            </li>
+            
+            <li>
+                
+                    <a href="http://blog.wildcat.io/categories">Categories</a>&nbsp;&bull;
+                 
+            </li>
+            
+            <li>
+                
+                    <a href="http://blog.wildcat.io/about">About</a>&nbsp;&bull;
+                 
+            </li>
+            
+            <li><a href="http://blog.wildcat.io/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+        </ul>
+        </div>
+    </div>
+    
+        <div class="decor-wrapper">
+            <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+
+                <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+
+                <path class="medium left" d="M0 0 L50 50 L0 66.6" fill="rgba(255,255,255, .3)"></path>
+                <path class="medium right" d="M100 0 L50 50 L100 66.6" fill="rgba(255,255,255, .3)"></path>
+
+                <path class="small left" d="M0 0 L50 50 L0 33.3" fill="rgba(255,255,255, .5)"></path>
+                <path class="small right" d="M100 0 L50 50 L100 33.3" fill="rgba(255,255,255, .5)"></path>
+
+                <path d="M0 0 L50 50 L100 0 L0 0" fill="rgba(255,255,255, 1)"></path>
+
+                <path d="M48 48 L50 51 L52 48 L48 48" fill="rgba(255,255,255, 1)"></path>
+
+            </svg>
+        </div>
+    
+</footer>
+
+    
+<script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://blog.wildcat.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://blog.wildcat.io/assets/js/scripts.min.js"></script>
+<script type="text/javascript" src="http://blog.wildcat.io/assets/js/waypoints.min.js"></script>
+<script type="text/javascript" src="http://blog.wildcat.io/assets/js/script.js"></script>
+<script type='text/javascript'>console.log("HMFaysal Omega Theme Version 2.0");</script>
+<script type='text/javascript'>console.log("https://alum.mit.edu/www/hmfaysal");</script>
+<script type='text/javascript'>$(document).ready(function(){$(".time").text(function(a,b){return Math.round(parseFloat(b))})});</script>
+
+<script type="text/javascript">
+
+/*      Slides       */
+
+$("a#slide").click(function(){
+    $("#sidebar,body,a#slide,#fade").addClass("slide")
+});
+
+$("#fade,#header,#posts-container").click(function(){
+    $("#sidebar,body,a#slide,#fade").removeClass("slide")
+});
+
+$("a#click-filter").click(function(){
+    $("#slide-filter").slideToggle("medium");
+    $("#slide-pages").slideOut("medium");
+});
+
+$("a#click-pages").click(function(){
+    $("#slide-pages").slideToggle("medium");
+    $("#slide-filter").slideOut("medium");
+});
+
+/*      End-Slides      */
+
+</script>
+
+
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : 'http://blog.wildcat.io/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-54518448-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'cat-blog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<div class="hidden">
+    <script src="http://s4.cnzz.com/stat.php?id=1253210891&web_id=1253210891" language="JavaScript"></script>
+</div> 
+</body>
+</html>
