@@ -2,26 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">WildCat's Blog</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://blog.wildcat.io/feed.xml" />
-<link rel="alternate" type="text/html" href="http://blog.wildcat.io" />
-<updated>2014-10-26T11:54:42+08:00</updated>
-<id>http://blog.wildcat.io/</id>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2014-11-09T00:58:26+08:00</updated>
+<id>http://localhost:4000/</id>
 <author>
   <name>WildCat</name>
-  <uri>http://blog.wildcat.io/</uri>
+  <uri>http://localhost:4000/</uri>
   <email>i@wildcat.name</email>
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA[最近的工作与反思]]></title>
+  <link>http://localhost:4000/2014/activities-and-introspection-recently</link>
+  <id>http://localhost:4000/2014/activities-and-introspection-recently</id>
+  <published>2014-11-09T00:48:00+08:00</published>
+  <updated>2014-11-09T00:48:00+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri>http://localhost:4000</uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;p&gt;最近一直在瞎忙活，之前的计划的完成度不是很高。&lt;br /&gt;
+这篇博客本应该是在上周末考完雅思之后写的，由于父亲来济南，加上准备这周六的软赛答辩，所以拖到了现在才动手写。&lt;/p&gt;
+
+&lt;p&gt;总体来说最近过得还是挺充实的，不顺心的事情总有那么一些，不总想就好。&lt;br /&gt;
+第一次考雅思，确实没有努力准备，现在成绩还没有出来，想必不会乐观。总要时刻提醒当下的最重要任务，任重道远。  &lt;/p&gt;
+
+&lt;p&gt;软赛已经结束，其实走过来发现学长说得真对，比赛真的是槽点满满：各种口头说了就算的规则、奇葩的官网、不透明的操作，呵呵就好。不过让我感到满足的是认识了高老师和罗总，嗯，总有收获！&lt;/p&gt;
+
+&lt;p&gt;最后就是刚参加了土豪同学的婚宴（由于答辩，早晨的婚礼没机会去），感觉时间流逝好快，让人猝不及防呢。&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/activities-and-introspection-recently&quot;&gt;最近的工作与反思&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on November 09, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[迁移到 Jekyll]]></title>
-  <link>http://blog.wildcat.io/2014/migrate-to-jekyll</link>
-  <id>http://blog.wildcat.io/2014/migrate-to-jekyll</id>
+  <link>http://localhost:4000/2014/migrate-to-jekyll</link>
+  <id>http://localhost:4000/2014/migrate-to-jekyll</id>
   <published>2014-10-26T11:49:00+08:00</published>
   <updated>2014-10-26T11:49:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://blog.wildcat.io</uri>
+    <uri>http://localhost:4000</uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;思考再三，决定不再使用 Ghost ，大致原因如下：&lt;/p&gt;
@@ -34,19 +59,19 @@
   &lt;li&gt;内存占用不够理想&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/migrate-to-jekyll&quot;&gt;迁移到 Jekyll&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on October 26, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/migrate-to-jekyll&quot;&gt;迁移到 Jekyll&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on October 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Rails 部署时遇到的问题（其实是 MIME type 错误）]]></title>
-  <link>http://blog.wildcat.io/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</link>
-  <id>http://blog.wildcat.io/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</id>
+  <link>http://localhost:4000/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</link>
+  <id>http://localhost:4000/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</id>
   <published>2014-10-13T22:14:00+08:00</published>
   <updated>2014-10-13T22:14:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://blog.wildcat.io</uri>
+    <uri>http://localhost:4000</uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;这两天在学习 Rails ，昨晚第一次尝试部署，遇到一个奇葩的问题：&lt;br /&gt;
@@ -57,19 +82,19 @@ CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 
 
 &lt;p&gt;虽然是个低级的问题，但是被纠结了大半天，一开始也没有考虑到 Content Type 的问题。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type&quot;&gt;Rails 部署时遇到的问题（其实是 MIME type 错误）&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on October 13, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type&quot;&gt;Rails 部署时遇到的问题（其实是 MIME type 错误）&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on October 13, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Design + Code 里的颜色]]></title>
-  <link>http://blog.wildcat.io/2014/colors-in-design-plus-code</link>
-  <id>http://blog.wildcat.io/2014/colors-in-design-plus-code</id>
+  <link>http://localhost:4000/2014/colors-in-design-plus-code</link>
+  <id>http://localhost:4000/2014/colors-in-design-plus-code</id>
   <published>2014-10-03T18:23:00+08:00</published>
   <updated>2014-10-03T18:23:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://blog.wildcat.io</uri>
+    <uri>http://localhost:4000</uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p style=&quot;text-align:center&quot;&gt;
@@ -100,19 +125,19 @@ CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 
 &lt;/svg&gt;
 &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/colors-in-design-plus-code&quot;&gt;Design + Code 里的颜色&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on October 03, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/colors-in-design-plus-code&quot;&gt;Design + Code 里的颜色&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on October 03, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Developing iOS 7 Apps for iPhone and iPad - 学习笔记]]></title>
-  <link>http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</link>
-  <id>http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</id>
+  <link>http://localhost:4000/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</link>
+  <id>http://localhost:4000/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</id>
   <published>2014-09-20T20:33:00+08:00</published>
   <updated>2014-09-20T20:33:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://blog.wildcat.io</uri>
+    <uri>http://localhost:4000</uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;h2 id=&quot;lecture-4---foundation-and-attributed-strings&quot;&gt;Lecture 4 - Foundation and Attributed Strings&lt;/h2&gt;
@@ -341,19 +366,19 @@ our Application Delegate gets …&lt;br /&gt;
 Generally you undo whatever you did in DidEnterBackground&lt;br /&gt;
 You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after receiving the above.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note&quot;&gt;Developing iOS 7 Apps for iPhone and iPad - 学习笔记&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on September 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note&quot;&gt;Developing iOS 7 Apps for iPhone and iPad - 学习笔记&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on September 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Swift 中如何缩短 Range<String.Index> 的长度]]></title>
-  <link>http://blog.wildcat.io/2014/how-to-reduce-the-length-of-range-string-index-in-swift</link>
-  <id>http://blog.wildcat.io/2014/how-to-reduce-the-length-of-range-string-index-in-swift</id>
+  <link>http://localhost:4000/2014/how-to-reduce-the-length-of-range-string-index-in-swift</link>
+  <id>http://localhost:4000/2014/how-to-reduce-the-length-of-range-string-index-in-swift</id>
   <published>2014-09-15T13:55:00+08:00</published>
   <updated>2014-09-15T13:55:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://blog.wildcat.io</uri>
+    <uri>http://localhost:4000</uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;今天写一个小项目的时候遇到一个这样的需求，截取一个类似 &lt;code&gt;Michael: Hello, World!&lt;/code&gt; 的字符串中的名字部分，当然，代码如下： &lt;/p&gt;
@@ -391,19 +416,19 @@ You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after rec
 
 &lt;p&gt;附： &lt;a href=&quot;http://stackoverflow.com/questions/24044851/how-do-you-use-string-substringwithrange-or-how-do-ranges-work-in-swift&quot;&gt;http://stackoverflow.com/questions/24044851/how-do-you-use-string-substringwithrange-or-how-do-ranges-work-in-swift&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/how-to-reduce-the-length-of-range-string-index-in-swift&quot;&gt;Swift 中如何缩短 Range<String.Index> 的长度&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on September 15, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/how-to-reduce-the-length-of-range-string-index-in-swift&quot;&gt;Swift 中如何缩短 Range<String.Index> 的长度&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on September 15, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[写在大二开始前夜]]></title>
-  <link>http://blog.wildcat.io/2014/writing-before-becoming-a-sophomore</link>
-  <id>http://blog.wildcat.io/2014/writing-before-becoming-a-sophomore</id>
+  <link>http://localhost:4000/2014/writing-before-becoming-a-sophomore</link>
+  <id>http://localhost:4000/2014/writing-before-becoming-a-sophomore</id>
   <published>2014-09-12T06:18:54+08:00</published>
   <updated>2014-09-12T06:18:54+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://blog.wildcat.io</uri>
+    <uri>http://localhost:4000</uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;两个多月的暑假就这么结束了，感觉自己似乎啥也没做，或者说啥也没做好。  &lt;/p&gt;
@@ -437,7 +462,7 @@ You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after rec
 
 &lt;p&gt;嗯，就这么多吧，是时候培养睡意休息了，快点好起来！&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://blog.wildcat.io/2014/writing-before-becoming-a-sophomore&quot;&gt;写在大二开始前夜&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://blog.wildcat.io&quot;&gt;WildCat's Blog&lt;/a&gt; on September 12, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/writing-before-becoming-a-sophomore&quot;&gt;写在大二开始前夜&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on September 12, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
