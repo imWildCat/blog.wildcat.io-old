@@ -2,26 +2,118 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">WildCat's Blog</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2014-11-09T00:58:26+08:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2014-11-09T23:45:44+08:00</updated>
+<id>/</id>
 <author>
   <name>WildCat</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>/</uri>
   <email>i@wildcat.name</email>
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA[齐鲁软赛碎碎念]]></title>
+  <link>/2014/qilu-software-design-competition-of-college-students</link>
+  <id>/2014/qilu-software-design-competition-of-college-students</id>
+  <published>2014-11-09T11:23:00+08:00</published>
+  <updated>2014-11-09T11:23:00+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri></uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;p&gt;现在是 11 月 9 日上午 11 点，刚刚帮姥姥搬完家，开始回顾备赛经历&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;，希望可以为学弟学妹提供参考。&lt;/p&gt;
+
+&lt;p&gt;我们上场答辩的时间大约就是 24 小时前，所以趁着热乎，先回顾下昨日复赛答辩经历。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;复赛答辩&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;关于时间的几个问题&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://softqilu.com/new/show.asp?id=1708&amp;amp;cid=17&quot;&gt;复赛答辩的通知&lt;/a&gt; 里讲到“参加答辩的小组成员务必在 8:00 到达会场进行前期准备”，我们是大约 7:45 到达会场，发现会场学生的座位已经坐满了，都是蛮拼的。后来又去搬的板凳（辛苦东哥、罗总&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;）。其实有没有座位关系不大，坐板凳上的缺点是没有地儿放电脑，只能放腿上，不过还好。&lt;/li&gt;
+  &lt;li&gt;通知上写是 8:30 开始，实际上大约 8:45 开始的。&lt;/li&gt;
+  &lt;li&gt;总共 16 个参赛队伍，好像有一个没来。要求的是每个队伍最多演讲 10 分钟，演讲结束后会有提问环节。但是如果演讲结束后，已经接近 10 分钟，将不会被提问。&lt;/li&gt;
+  &lt;li&gt;很多队伍都基本达到了 10 分钟的演讲上限时间，因此没有被提问。我们之前准备的是 7 分钟的演讲，讲完期待有提问，结果我们的提问环节也被习惯性 pass 掉了。实际上，只有一个团队被提问了，而且只有一个问题，内容不记得了。关于这点，我心中还是为我的团队不平的，希望以后的比赛能把规定成文，否则怎么可以说是一个省级的比赛呢？&lt;/li&gt;
+  &lt;li&gt;有一个队伍光演讲就超过了 10 分钟，被提醒后，主讲人（可能是队长）竟然强行要求评委观看他们的演示（这么做真的是情商太低了），结果是被评委们批评了。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;重头戏：幻灯片&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;我们使用的是 Keynote 做的幻灯片，因此为了达到最佳演示效果，必须使用 Mac 来播放。所以转接器（Miniport 转 VGA/HDMI）是必须的。让人感到难以理解的是，在场除了我们团队之外，还有两个团队没有带转接器，似乎是转换成 PPT 播放的，这样还不如直接做 PPT，效果大打折扣。因此，如果你用 Mac，请考虑周全。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;幻灯片的设计。之所以加粗这段是因为我觉得这很重要。笔者此前很少做幻灯片，所以在准备答辩的时候直接买了一套教程（《&lt;a href=&quot;http://item.taobao.com/item.htm?spm=a230r.1.14.1.xmtcxQ&amp;amp;id=40975579044&amp;amp;ns=1&amp;amp;abbucket=4#detail&quot;&gt;许岑的Keynote 视频教程&lt;/a&gt;》&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;）。现场团队中还是有一些幻灯片做得很好的，但是大多数（六成以上）做得很差。主要的缺点是大量堆砌文字、大量堆砌程序截图、字体丑陋、内容过多（ 10 分钟的演讲切 30 张幻灯片，简直无法直视）。另外，关于内容，我个人的见解是不要展示大家都知道的技术，这不会让你显得多么高端，甚至适得其反。比如一个团队说，他们服务端用了 Hibernate 、 Struts ， 下一步打算加入 Spring ，成为一个标准的 S2SH 应用&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;。呵呵，这点不用你教给评委吧？如果你使用 Play Framework 倒是可以讲讲。&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;还有一点，许岑的教程有提到过，&lt;strong&gt;请买幻灯片遥控笔&lt;/strong&gt;。当然你不是老罗，用不着上万元的遥控笔，但是不用遥控笔真的显得你很 low。有意思的是，现场的团队只有我们一个用遥控笔的。当然他们之中有队友来负责切幻灯片的。但是你难道不觉得拿着遥控笔演讲会给听众一种“万物皆在你的掌控之中”的感觉吗？更有甚者，自己演讲，然后跑电脑旁边自己切幻灯片，这样的效果别提多差劲了。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;视频相关&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;现场的演讲中，插播的视频基本都是程序的介绍。好像所有的视频播放时，都是先退出幻灯片播放模式，打开文件夹，播放视频。播放完，再切回去，这让我感觉一样很 low。所以，如果做视频，请嵌入到你的幻灯片里，相信你做视频的时间成本不会低于做幻灯片的，费点劲转换下格式嵌入进去岂不美哉？&lt;/li&gt;
+  &lt;li&gt;关于视频的内容。似乎几乎所有的团队的视频都是纯屏幕录像，如果这是在一个技术论坛上我感觉还可以，但是这出现在“软件设计大赛”的演讲中，我觉得这不够“软”，太“硬”了。感谢罗总、东哥还有我们的女主角，我们准备了一段很不错的视频。它主要借鉴了苹果公司的产品介绍视频，如果队友同意，我稍后会放出链接。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section-4&quot;&gt;其他零碎问题&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;关于视频的音源输出。会场好像是有音响，但是效果不好。我们提前准备了一个充电的蓝牙小音响，测试效果不错。但是在上场的时候蓝牙就是匹配不上了，导致我们只能使用 Macbook 播放声音，效果大打折扣。&lt;/li&gt;
+  &lt;li&gt;如果你做的应用涵盖移动端，似乎有必要准备几个设备，在上场时发给评委。我们是发了一台 iPad 加两台 Android 手机（因为担心评委后面提问，用到 AirPlay ， 笔者的 iPhone 就没有发下去）。&lt;/li&gt;
+  &lt;li&gt;所有团队答辩结束后，都会被请离赛场。几位评委会闭门讨论三个特等奖提名人选，你懂的。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;section-5&quot;&gt;备赛经历&lt;/h1&gt;
+
+&lt;h2 id=&quot;section-6&quot;&gt;技术选择&lt;/h2&gt;
+&lt;p&gt;之前也有和几个同龄的码农朋友考虑过，参赛基本就是为了测试某个新颖的技术的坑都有哪些，除非是大公司举办的黑客马拉松。因此我选择了 Hybird 应用开发。另外选择的命题为“百度开放云平台的应用开发”的原因是因为这个命题限制较少，不过 BAE 坑还是挺多的。比如，我们用的数据库 MongoDB 在 BAE 以前是无法备份的，不过现在可以了。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;机会成本/时间成本估计&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;笔者的编码成本。本文成文时，印象山财的服务端尚未开源，这里仅用客户端代码库历史核算。根据&lt;a href=&quot;https://github.com/imWildCat/yxsc-client/commits/master&quot;&gt;客户端代码库提交历史&lt;/a&gt;，按照每个 commit 耗费 0.7 工时计算（有的 commit 甚至需要 2～3小时），客户端总共耗费 62 × 0.5 = 43.4 工时，加上服务端，暂时估算为 43.4 * 1.8 = 78.12 工时。保守自己目前的能力，估计每工时价值 ￥30 ，这样，机会成本为 78.12 * 30 = 2343.6 元。&lt;/li&gt;
+  &lt;li&gt;准备答辩的成本。笔者准备 Keynote 大约花费 10 个小时（写演讲稿、看教程、实践）。罗总、东哥为了准备视频大约花了 3 天的时间。还有排练和准备 Q&amp;amp;A 的成本，大约 2 小时。  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;周三拍了一段定格动画，不满意，周四早晨打算重新拍，下午找到演员拍了一下午外景，周五早晨7点多趁着没人到教室找到一块还凑合的墙，拍了一小时，一共三个人。但是一个哥们的衣服不行，没用。周五上午又配音。下午处理后期，晚上7点才成型。  —— 笔者发给一个吐槽视频还不够好的朋友的聊天记录&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;综上，如果仅从经济角度考虑，如果不获得特等奖（第一名），还是挺亏的。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;section-8&quot;&gt;后记&lt;/h1&gt;
+
+&lt;p&gt;由于打算迅速开始一个设计完但是搁置已久的 iOS 项目开发，因此笔者暂时结束本文的攥写，但是还是会不断回顾备赛历程，不断更新。如果您有任何问题，请直接在下方评论本文。本文内容仅代表作者观点，转载请注明出处。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;!-- 本篇博客的写作持续了若干天，并不是 11 月 9 日完成的。 --&gt;这里的齐鲁软赛即为“&lt;a href=&quot;http://softqilu.com/new/index.asp&quot;&gt;齐鲁大学生软件设计大赛&lt;/a&gt;”。 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;EiND Studio （印象山财团队）成员。 &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;我这里直接给了作者的淘宝链接，希望大家不要觉得有广告嫌疑。个人认为教程的质量还是值 ￥90 的，幻灯片设计的理念很多，操作技巧绝对没有你想象得多。如果你用 Keynote ，强烈推荐；如果你是 Windows 用户，可以多多考虑。不过笔者觉得即使 Windows 用户也是值得购买的。 &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;不专业的注释（我没怎么写过 Java）： S2SH 是一套传统的 Java 框架体系。 &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2014/qilu-software-design-competition-of-college-students&quot;&gt;齐鲁软赛碎碎念&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on November 09, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[最近的工作与反思]]></title>
-  <link>http://localhost:4000/2014/activities-and-introspection-recently</link>
-  <id>http://localhost:4000/2014/activities-and-introspection-recently</id>
+  <link>/2014/activities-and-introspection-recently</link>
+  <id>/2014/activities-and-introspection-recently</id>
   <published>2014-11-09T00:48:00+08:00</published>
   <updated>2014-11-09T00:48:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://localhost:4000</uri>
+    <uri></uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;最近一直在瞎忙活，之前的计划的完成度不是很高。&lt;br /&gt;
@@ -30,23 +122,23 @@
 &lt;p&gt;总体来说最近过得还是挺充实的，不顺心的事情总有那么一些，不总想就好。&lt;br /&gt;
 第一次考雅思，确实没有努力准备，现在成绩还没有出来，想必不会乐观。总要时刻提醒当下的最重要任务，任重道远。  &lt;/p&gt;
 
-&lt;p&gt;软赛已经结束，其实走过来发现学长说得真对，比赛真的是槽点满满：各种口头说了就算的规则、奇葩的官网、不透明的操作，呵呵就好。不过让我感到满足的是认识了高老师和罗总，嗯，总有收获！&lt;/p&gt;
+&lt;p&gt;软赛已经结束，其实走过来发现学长说得真对，比赛真的是槽点满满：各种口头说了就算的规则、奇葩的官网、不透明的操作，呵呵就好。不过让我感到满足的是认识了高老师和罗总，嗯，总有收获！最近打算开个小坑，整理下心得体会，留给后人参考。&lt;/p&gt;
 
 &lt;p&gt;最后就是刚参加了土豪同学的婚宴（由于答辩，早晨的婚礼没机会去），感觉时间流逝好快，让人猝不及防呢。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/activities-and-introspection-recently&quot;&gt;最近的工作与反思&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on November 09, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/2014/activities-and-introspection-recently&quot;&gt;最近的工作与反思&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on November 09, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[迁移到 Jekyll]]></title>
-  <link>http://localhost:4000/2014/migrate-to-jekyll</link>
-  <id>http://localhost:4000/2014/migrate-to-jekyll</id>
+  <link>/2014/migrate-to-jekyll</link>
+  <id>/2014/migrate-to-jekyll</id>
   <published>2014-10-26T11:49:00+08:00</published>
   <updated>2014-10-26T11:49:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://localhost:4000</uri>
+    <uri></uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;思考再三，决定不再使用 Ghost ，大致原因如下：&lt;/p&gt;
@@ -59,19 +151,19 @@
   &lt;li&gt;内存占用不够理想&lt;/li&gt;
 &lt;/ul&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/migrate-to-jekyll&quot;&gt;迁移到 Jekyll&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on October 26, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/2014/migrate-to-jekyll&quot;&gt;迁移到 Jekyll&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on October 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Rails 部署时遇到的问题（其实是 MIME type 错误）]]></title>
-  <link>http://localhost:4000/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</link>
-  <id>http://localhost:4000/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</id>
+  <link>/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</link>
+  <id>/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</id>
   <published>2014-10-13T22:14:00+08:00</published>
   <updated>2014-10-13T22:14:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://localhost:4000</uri>
+    <uri></uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;这两天在学习 Rails ，昨晚第一次尝试部署，遇到一个奇葩的问题：&lt;br /&gt;
@@ -82,19 +174,19 @@ CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 
 
 &lt;p&gt;虽然是个低级的问题，但是被纠结了大半天，一开始也没有考虑到 Content Type 的问题。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type&quot;&gt;Rails 部署时遇到的问题（其实是 MIME type 错误）&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on October 13, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type&quot;&gt;Rails 部署时遇到的问题（其实是 MIME type 错误）&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on October 13, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Design + Code 里的颜色]]></title>
-  <link>http://localhost:4000/2014/colors-in-design-plus-code</link>
-  <id>http://localhost:4000/2014/colors-in-design-plus-code</id>
+  <link>/2014/colors-in-design-plus-code</link>
+  <id>/2014/colors-in-design-plus-code</id>
   <published>2014-10-03T18:23:00+08:00</published>
   <updated>2014-10-03T18:23:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://localhost:4000</uri>
+    <uri></uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p style=&quot;text-align:center&quot;&gt;
@@ -125,19 +217,19 @@ CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 
 &lt;/svg&gt;
 &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/colors-in-design-plus-code&quot;&gt;Design + Code 里的颜色&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on October 03, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/2014/colors-in-design-plus-code&quot;&gt;Design + Code 里的颜色&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on October 03, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Developing iOS 7 Apps for iPhone and iPad - 学习笔记]]></title>
-  <link>http://localhost:4000/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</link>
-  <id>http://localhost:4000/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</id>
+  <link>/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</link>
+  <id>/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</id>
   <published>2014-09-20T20:33:00+08:00</published>
   <updated>2014-09-20T20:33:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://localhost:4000</uri>
+    <uri></uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;h2 id=&quot;lecture-4---foundation-and-attributed-strings&quot;&gt;Lecture 4 - Foundation and Attributed Strings&lt;/h2&gt;
@@ -366,19 +458,19 @@ our Application Delegate gets …&lt;br /&gt;
 Generally you undo whatever you did in DidEnterBackground&lt;br /&gt;
 You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after receiving the above.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note&quot;&gt;Developing iOS 7 Apps for iPhone and iPad - 学习笔记&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on September 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note&quot;&gt;Developing iOS 7 Apps for iPhone and iPad - 学习笔记&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on September 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Swift 中如何缩短 Range<String.Index> 的长度]]></title>
-  <link>http://localhost:4000/2014/how-to-reduce-the-length-of-range-string-index-in-swift</link>
-  <id>http://localhost:4000/2014/how-to-reduce-the-length-of-range-string-index-in-swift</id>
+  <link>/2014/how-to-reduce-the-length-of-range-string-index-in-swift</link>
+  <id>/2014/how-to-reduce-the-length-of-range-string-index-in-swift</id>
   <published>2014-09-15T13:55:00+08:00</published>
   <updated>2014-09-15T13:55:00+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://localhost:4000</uri>
+    <uri></uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;今天写一个小项目的时候遇到一个这样的需求，截取一个类似 &lt;code&gt;Michael: Hello, World!&lt;/code&gt; 的字符串中的名字部分，当然，代码如下： &lt;/p&gt;
@@ -416,19 +508,19 @@ You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after rec
 
 &lt;p&gt;附： &lt;a href=&quot;http://stackoverflow.com/questions/24044851/how-do-you-use-string-substringwithrange-or-how-do-ranges-work-in-swift&quot;&gt;http://stackoverflow.com/questions/24044851/how-do-you-use-string-substringwithrange-or-how-do-ranges-work-in-swift&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/how-to-reduce-the-length-of-range-string-index-in-swift&quot;&gt;Swift 中如何缩短 Range<String.Index> 的长度&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on September 15, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/2014/how-to-reduce-the-length-of-range-string-index-in-swift&quot;&gt;Swift 中如何缩短 Range<String.Index> 的长度&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on September 15, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[写在大二开始前夜]]></title>
-  <link>http://localhost:4000/2014/writing-before-becoming-a-sophomore</link>
-  <id>http://localhost:4000/2014/writing-before-becoming-a-sophomore</id>
+  <link>/2014/writing-before-becoming-a-sophomore</link>
+  <id>/2014/writing-before-becoming-a-sophomore</id>
   <published>2014-09-12T06:18:54+08:00</published>
   <updated>2014-09-12T06:18:54+08:00</updated>
   <author>
     <name>WildCat</name>
-    <uri>http://localhost:4000</uri>
+    <uri></uri>
     <email>i@wildcat.name</email>
   </author>
   <content type="html">&lt;p&gt;两个多月的暑假就这么结束了，感觉自己似乎啥也没做，或者说啥也没做好。  &lt;/p&gt;
@@ -462,7 +554,7 @@ You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after rec
 
 &lt;p&gt;嗯，就这么多吧，是时候培养睡意休息了，快点好起来！&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/writing-before-becoming-a-sophomore&quot;&gt;写在大二开始前夜&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;http://localhost:4000&quot;&gt;WildCat's Blog&lt;/a&gt; on September 12, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;/2014/writing-before-becoming-a-sophomore&quot;&gt;写在大二开始前夜&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on September 12, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>

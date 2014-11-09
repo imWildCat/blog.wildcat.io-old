@@ -2,42 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      
     <url>
-        <loc>http://localhost:4000/</loc>
+        <loc>/</loc>
     </url> 
     <url>
-        <loc>http://localhost:4000/categories</loc>
+        <loc>/categories</loc>
     </url> 
     <url>
-        <loc>http://localhost:4000/about</loc>
+        <loc>/about</loc>
     </url>
     
     
     <url>
-        <loc>http://localhost:4000/2014/activities-and-introspection-recently</loc>
+        <loc>/2014/qilu-software-design-competition-of-college-students</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/2014/migrate-to-jekyll</loc>
+        <loc>/2014/activities-and-introspection-recently</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</loc>
+        <loc>/2014/migrate-to-jekyll</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/2014/colors-in-design-plus-code</loc>
+        <loc>/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</loc>
+        <loc>/2014/colors-in-design-plus-code</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/2014/how-to-reduce-the-length-of-range-string-index-in-swift</loc>
+        <loc>/2014/developing-ios-7-apps-for-iphone-and-ipad-study-note</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/2014/writing-before-becoming-a-sophomore</loc>
+        <loc>/2014/how-to-reduce-the-length-of-range-string-index-in-swift</loc>
+    </url>
+    
+    <url>
+        <loc>/2014/writing-before-becoming-a-sophomore</loc>
     </url>
     
 </urlset>
