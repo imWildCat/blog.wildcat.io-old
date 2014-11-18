@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-11-09T23:45:44+08:00</updated>
+<updated>2014-11-18T21:40:02+08:00</updated>
 <id>/</id>
 <author>
   <name>WildCat</name>
@@ -26,7 +26,8 @@
   </author>
   <content type="html">&lt;p&gt;现在是 11 月 9 日上午 11 点，刚刚帮姥姥搬完家，开始回顾备赛经历&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;，希望可以为学弟学妹提供参考。&lt;/p&gt;
 
-&lt;p&gt;我们上场答辩的时间大约就是 24 小时前，所以趁着热乎，先回顾下昨日复赛答辩经历。&lt;/p&gt;
+&lt;p&gt;我们上场答辩的时间大约就是 24 小时前，所以趁着热乎，先回顾下昨日复赛答辩经历。先放一张会场的全景照片：&lt;br /&gt;
+&lt;a href=&quot;/images/uploads/2014/11/meetingplace-at-shandong-university.jpg&quot;&gt;&lt;img src=&quot;/images/uploads/2014/11/meetingplace-at-shandong-university.jpg&quot; alt=&quot;会场&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
@@ -43,7 +44,7 @@
 
 &lt;h2 id=&quot;section-2&quot;&gt;重头戏：幻灯片&lt;/h2&gt;
 &lt;ol&gt;
-  &lt;li&gt;我们使用的是 Keynote 做的幻灯片，因此为了达到最佳演示效果，必须使用 Mac 来播放。所以转接器（Miniport 转 VGA/HDMI）是必须的。让人感到难以理解的是，在场除了我们团队之外，还有两个团队没有带转接器，似乎是转换成 PPT 播放的，这样还不如直接做 PPT，效果大打折扣。因此，如果你用 Mac，请考虑周全。&lt;/li&gt;
+  &lt;li&gt;我们使用的是 Keynote 做的幻灯片，因此为了达到最佳演示效果，必须使用 Mac 来播放。所以转接器（Miniport 转 VGA/HDMI）是必须的。让人感到难以理解的是，在场除了我们团队之外，还有两个团队也使用 Keynote ，但是他们没有带转接器，似乎是转换成 PPT 播放的，这样还不如直接做 PPT，效果大打折扣。因此，如果你用 Mac，请考虑周全。&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;幻灯片的设计。之所以加粗这段是因为我觉得这很重要。笔者此前很少做幻灯片，所以在准备答辩的时候直接买了一套教程（《&lt;a href=&quot;http://item.taobao.com/item.htm?spm=a230r.1.14.1.xmtcxQ&amp;amp;id=40975579044&amp;amp;ns=1&amp;amp;abbucket=4#detail&quot;&gt;许岑的Keynote 视频教程&lt;/a&gt;》&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;）。现场团队中还是有一些幻灯片做得很好的，但是大多数（六成以上）做得很差。主要的缺点是大量堆砌文字、大量堆砌程序截图、字体丑陋、内容过多（ 10 分钟的演讲切 30 张幻灯片，简直无法直视）。另外，关于内容，我个人的见解是不要展示大家都知道的技术，这不会让你显得多么高端，甚至适得其反。比如一个团队说，他们服务端用了 Hibernate 、 Struts ， 下一步打算加入 Spring ，成为一个标准的 S2SH 应用&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;。呵呵，这点不用你教给评委吧？如果你使用 Play Framework 倒是可以讲讲。&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;还有一点，许岑的教程有提到过，&lt;strong&gt;请买幻灯片遥控笔&lt;/strong&gt;。当然你不是老罗，用不着上万元的遥控笔，但是不用遥控笔真的显得你很 low。有意思的是，现场的团队只有我们一个用遥控笔的。当然他们之中有队友来负责切幻灯片的。但是你难道不觉得拿着遥控笔演讲会给听众一种“万物皆在你的掌控之中”的感觉吗？更有甚者，自己演讲，然后跑电脑旁边自己切幻灯片，这样的效果别提多差劲了。&lt;/li&gt;
 &lt;/ol&gt;
@@ -51,8 +52,13 @@
 &lt;h2 id=&quot;section-3&quot;&gt;视频相关&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;现场的演讲中，插播的视频基本都是程序的介绍。好像所有的视频播放时，都是先退出幻灯片播放模式，打开文件夹，播放视频。播放完，再切回去，这让我感觉一样很 low。所以，如果做视频，请嵌入到你的幻灯片里，相信你做视频的时间成本不会低于做幻灯片的，费点劲转换下格式嵌入进去岂不美哉？&lt;/li&gt;
-  &lt;li&gt;关于视频的内容。似乎几乎所有的团队的视频都是纯屏幕录像，如果这是在一个技术论坛上我感觉还可以，但是这出现在“软件设计大赛”的演讲中，我觉得这不够“软”，太“硬”了。感谢罗总、东哥还有我们的女主角，我们准备了一段很不错的视频。它主要借鉴了苹果公司的产品介绍视频，如果队友同意，我稍后会放出链接。&lt;/li&gt;
+  &lt;li&gt;关于视频的内容。似乎几乎所有的团队的视频都是纯屏幕录像，如果这是在一个技术论坛上我感觉还可以，但是这出现在“软件设计大赛”的演讲中，我觉得这不够“软”，太“硬”了。感谢罗总、东哥还有我们的女主角，我们准备了一段很不错的视频。它主要借鉴了苹果公司的产品介绍视频，&lt;del&gt;如果队友同意，我稍后会放出链接&lt;/del&gt;。&lt;br /&gt;
+经过商议，现放出比赛用介绍视频（ iOS 无法播放 Flash，请&lt;a href=&quot;http://v.youku.com/v_show/id_XODIyNjMxMjQw.html&quot;&gt;点击这里&lt;/a&gt;）：  &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;embed src=&quot;http://player.youku.com/player.php/sid/XODIyNjMxMjQw/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
+
+&lt;p&gt;比赛现场录像仅对学弟学妹提供，如果有需求请联系笔者。&lt;/p&gt;
 
 &lt;h2 id=&quot;section-4&quot;&gt;其他零碎问题&lt;/h2&gt;
 &lt;ol&gt;
@@ -68,7 +74,7 @@
 
 &lt;h2 id=&quot;section-7&quot;&gt;机会成本/时间成本估计&lt;/h2&gt;
 &lt;ol&gt;
-  &lt;li&gt;笔者的编码成本。本文成文时，印象山财的服务端尚未开源，这里仅用客户端代码库历史核算。根据&lt;a href=&quot;https://github.com/imWildCat/yxsc-client/commits/master&quot;&gt;客户端代码库提交历史&lt;/a&gt;，按照每个 commit 耗费 0.7 工时计算（有的 commit 甚至需要 2～3小时），客户端总共耗费 62 × 0.5 = 43.4 工时，加上服务端，暂时估算为 43.4 * 1.8 = 78.12 工时。保守自己目前的能力，估计每工时价值 ￥30 ，这样，机会成本为 78.12 * 30 = 2343.6 元。&lt;/li&gt;
+  &lt;li&gt;笔者的编码成本。本文成文时，印象山财的服务端尚未开源，这里仅用客户端代码库历史核算。根据&lt;a href=&quot;https://github.com/imWildCat/yxsc-client/commits/master&quot;&gt;客户端代码库提交历史&lt;/a&gt;，按照每个 commit 耗费 0.7 工时计算（有的 commit 甚至需要 2～3小时），客户端总共耗费 62 × 0.5 = 43.4 工时，加上服务端，暂时估算为 43.4 * 1.8 = 78.12 工时。保守估计自己目前的能力，估计每工时价值 ￥30 ，这样，机会成本为 78.12 * 30 = 2343.6 元。&lt;/li&gt;
   &lt;li&gt;准备答辩的成本。笔者准备 Keynote 大约花费 10 个小时（写演讲稿、看教程、实践）。罗总、东哥为了准备视频大约花了 3 天的时间。还有排练和准备 Q&amp;amp;A 的成本，大约 2 小时。  &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -78,9 +84,20 @@
 
 &lt;p&gt;&lt;strong&gt;综上，如果仅从经济角度考虑，如果不获得特等奖（第一名），还是挺亏的。&lt;/strong&gt;&lt;/p&gt;
 
+&lt;h1 id=&quot;hybrid-app&quot;&gt;关于 Hybrid App&lt;/h1&gt;
+
+&lt;p&gt;现在可以简单谈谈自己对 Hybrid App 的看法。目前自己认为，Hybrid 技术仅仅适合开发非常简单的应用，虽然 WebView 在各大公司的 App 里已经相当常见，但是这不代表可以使用 Hybrid 开发出一个完整的 App ，坑还是非常多的。&lt;/p&gt;
+
 &lt;h1 id=&quot;section-8&quot;&gt;后记&lt;/h1&gt;
 
 &lt;p&gt;由于打算迅速开始一个设计完但是搁置已久的 iOS 项目开发，因此笔者暂时结束本文的攥写，但是还是会不断回顾备赛历程，不断更新。如果您有任何问题，请直接在下方评论本文。本文内容仅代表作者观点，转载请注明出处。&lt;/p&gt;
+
+&lt;h1 id=&quot;section-9&quot;&gt;更新记录&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;18/11/2014: 增加现场图片、视频、对 Hybrid App 的看法。&lt;/li&gt;
+  &lt;li&gt;09/11/2014: 发布本篇。&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
@@ -93,7 +110,7 @@
       &lt;p&gt;EiND Studio （印象山财团队）成员。 &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;我这里直接给了作者的淘宝链接，希望大家不要觉得有广告嫌疑。个人认为教程的质量还是值 ￥90 的，幻灯片设计的理念很多，操作技巧绝对没有你想象得多。如果你用 Keynote ，强烈推荐；如果你是 Windows 用户，可以多多考虑。不过笔者觉得即使 Windows 用户也是值得购买的。 &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;我这里直接给了作者的淘宝链接，希望大家不要觉得有广告嫌疑。个人认为教程的质量还是值 ￥90 的，虽然幻灯片设计的理念很多，但是操作技巧绝对没有你想象得多。如果你用 Keynote ，强烈推荐；如果你是 Windows 用户，可以多多考虑。不过笔者觉得即使 Windows 用户也是值得购买的。 &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
       &lt;p&gt;不专业的注释（我没怎么写过 Java）： S2SH 是一套传统的 Java 框架体系。 &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
