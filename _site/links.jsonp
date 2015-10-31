@@ -38,6 +38,11 @@ callback([
   {
     "text": "齐鲁软赛碎碎念",
     "href": "/2014/qilu-software-design-competition-of-college-students"
+  } ,
+
+  {
+    "text": "转眼这一年",
+    "href": "/2015/a-long-time-since-last-blog-post"
   } 
 
 ])

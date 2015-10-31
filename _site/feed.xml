@@ -4,13 +4,49 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-11-18T21:40:02+08:00</updated>
+<updated>2015-10-31T20:58:51+08:00</updated>
 <id>/</id>
 <author>
   <name>WildCat</name>
   <uri>/</uri>
   <email>i@wildcat.name</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[转眼这一年]]></title>
+  <link>/2015/a-long-time-since-last-blog-post</link>
+  <id>/2015/a-long-time-since-last-blog-post</id>
+  <published>2015-10-31T20:50:00+08:00</published>
+  <updated>2015-10-31T20:50:00+08:00</updated>
+  <author>
+    <name>WildCat</name>
+    <uri></uri>
+    <email>i@wildcat.name</email>
+  </author>
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;虽然经常打开看自己的博客，但是没想到这么快————已经将近 1 年没更新了。很巧合，上次更新博客的时候是我刚考完第一次雅思，这次也是刚考完雅思。虽然这个时间点有点儿“前不着村，后不着店”，但是很想简单回顾下过去的 1 年。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;其实购买 &lt;em&gt;wildcat.io&lt;/em&gt; 这个域名，建立这个博客，最初的目的是为了写一些技术性的内容。不过没想到这里几乎成了自己吐槽自己的地方。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;粗略回想下从去年的今天到现在，好多小伙伴突然结婚了（真的是好突然），没结婚的也几乎成了人生赢家（之前结过婚的就更不用说了）……还有的找到了不错的工作，或者去了自己喜欢的大学（国家）继续读书，对比之下，多少有点失落。其实仔细想想，也许各自有路走，可能属于自己的未来更美好……不过这也不应该拿来比较。&lt;/p&gt;
+
+&lt;p&gt;实在不想继续评价自己雅思的准备情况，这次基本算尽力，不过临考的前几天发现了更好的备考想法，没有用实践加以验证。如果有机会的话（希望不要），我打算尝试下。&lt;/p&gt;
+
+&lt;p&gt;Todo List 上已经有成吨的事情需要处理，自己的想法也想一一实现。虽然转眼间就要迎来第二个本命年，但是需要积累的事情还有很多，希望可以在这个过程中慢慢变得老练与成熟，成为自己希望成为的那种人。&lt;/p&gt;
+
+&lt;p&gt;不管怎样，最后，&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Elune-adore!&lt;br /&gt;
+愿月神保佑你！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/2015/a-long-time-since-last-blog-post&quot;&gt;转眼这一年&lt;/a&gt; was originally published by WildCat at &lt;a href=&quot;&quot;&gt;WildCat's Blog&lt;/a&gt; on October 31, 2015.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -53,7 +89,7 @@
 &lt;ol&gt;
   &lt;li&gt;现场的演讲中，插播的视频基本都是程序的介绍。好像所有的视频播放时，都是先退出幻灯片播放模式，打开文件夹，播放视频。播放完，再切回去，这让我感觉一样很 low。所以，如果做视频，请嵌入到你的幻灯片里，相信你做视频的时间成本不会低于做幻灯片的，费点劲转换下格式嵌入进去岂不美哉？&lt;/li&gt;
   &lt;li&gt;关于视频的内容。似乎几乎所有的团队的视频都是纯屏幕录像，如果这是在一个技术论坛上我感觉还可以，但是这出现在“软件设计大赛”的演讲中，我觉得这不够“软”，太“硬”了。感谢罗总、东哥还有我们的女主角，我们准备了一段很不错的视频。它主要借鉴了苹果公司的产品介绍视频，&lt;del&gt;如果队友同意，我稍后会放出链接&lt;/del&gt;。&lt;br /&gt;
-经过商议，现放出比赛用介绍视频（ iOS 无法播放 Flash，请&lt;a href=&quot;http://v.youku.com/v_show/id_XODIyNjMxMjQw.html&quot;&gt;点击这里&lt;/a&gt;）：  &lt;/li&gt;
+经过商议，现放出比赛用介绍视频（ iOS 无法播放 Flash，请&lt;a href=&quot;http://v.youku.com/v_show/id_XODIyNjMxMjQw.html&quot;&gt;点击这里&lt;/a&gt;）：&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;embed src=&quot;http://player.youku.com/player.php/sid/XODIyNjMxMjQw/v.swf&quot; allowfullscreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;480&quot; height=&quot;400&quot; align=&quot;middle&quot; allowscriptaccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot; /&gt;
@@ -75,7 +111,7 @@
 &lt;h2 id=&quot;section-7&quot;&gt;机会成本/时间成本估计&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;笔者的编码成本。本文成文时，印象山财的服务端尚未开源，这里仅用客户端代码库历史核算。根据&lt;a href=&quot;https://github.com/imWildCat/yxsc-client/commits/master&quot;&gt;客户端代码库提交历史&lt;/a&gt;，按照每个 commit 耗费 0.7 工时计算（有的 commit 甚至需要 2～3小时），客户端总共耗费 62 × 0.5 = 43.4 工时，加上服务端，暂时估算为 43.4 * 1.8 = 78.12 工时。保守估计自己目前的能力，估计每工时价值 ￥30 ，这样，机会成本为 78.12 * 30 = 2343.6 元。&lt;/li&gt;
-  &lt;li&gt;准备答辩的成本。笔者准备 Keynote 大约花费 10 个小时（写演讲稿、看教程、实践）。罗总、东哥为了准备视频大约花了 3 天的时间。还有排练和准备 Q&amp;amp;A 的成本，大约 2 小时。  &lt;/li&gt;
+  &lt;li&gt;准备答辩的成本。笔者准备 Keynote 大约花费 10 个小时（写演讲稿、看教程、实践）。罗总、东哥为了准备视频大约花了 3 天的时间。还有排练和准备 Q&amp;amp;A 的成本，大约 2 小时。&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;blockquote&gt;
@@ -137,7 +173,7 @@
 这篇博客本应该是在上周末考完雅思之后写的，由于父亲来济南，加上准备这周六的软赛答辩，所以拖到了现在才动手写。&lt;/p&gt;
 
 &lt;p&gt;总体来说最近过得还是挺充实的，不顺心的事情总有那么一些，不总想就好。&lt;br /&gt;
-第一次考雅思，确实没有努力准备，现在成绩还没有出来，想必不会乐观。总要时刻提醒当下的最重要任务，任重道远。  &lt;/p&gt;
+第一次考雅思，确实没有努力准备，现在成绩还没有出来，想必不会乐观。总要时刻提醒当下的最重要任务，任重道远。&lt;/p&gt;
 
 &lt;p&gt;软赛已经结束，其实走过来发现学长说得真对，比赛真的是槽点满满：各种口头说了就算的规则、奇葩的官网、不透明的操作，呵呵就好。不过让我感到满足的是认识了高老师和罗总，嗯，总有收获！最近打算开个小坑，整理下心得体会，留给后人参考。&lt;/p&gt;
 
@@ -187,7 +223,7 @@
 CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 各种 keyword （比如 rails css not working / rails css not rendered ）都是没有符合的结果。纠结了好久。&lt;br /&gt;
 &lt;!-- more --&gt;
 今天中午的时候终于发现 CSS 的 Content Type 不对，竟然是 &lt;code&gt;text/plain&lt;/code&gt; ，于是去 nginx.conf 里寻错。原因是我把以前 nginx.conf 删掉了，新的配置文件内没有了 &lt;code&gt;include /etc/nginx/mime.types;&lt;/code&gt; 。重新修改文件结构，重启 nginx ，&lt;strong&gt;问题依旧&lt;/strong&gt; 。&lt;br /&gt;
-我以为还是没有找到问题，但是突然想到 HTTP 头内有设置缓存，于是换了个浏览器，CSS最终正确显示，问题得到解决。  &lt;/p&gt;
+我以为还是没有找到问题，但是突然想到 HTTP 头内有设置缓存，于是换了个浏览器，CSS最终正确显示，问题得到解决。&lt;/p&gt;
 
 &lt;p&gt;虽然是个低级的问题，但是被纠结了大半天，一开始也没有考虑到 Content Type 的问题。&lt;/p&gt;
 
@@ -283,7 +319,7 @@ It’s very convient to implement this method in your custom class, for purpose 
 &lt;h3 id=&quot;nsobject--copy--mutablecopy-&quot;&gt;3. NSObject 的 copy 和 mutablecopy 方法&lt;/h3&gt;
 &lt;p&gt;copy and mutablecopy methods of NSObejct &lt;br /&gt;
 NSObject 或者其他子类 的这两个方法一般是没有被实现的，除了 &lt;strong&gt;NSArray&lt;/strong&gt; 和 &lt;strong&gt;NSDictionary&lt;/strong&gt; (包括 mutable 类型)&lt;br /&gt;
-These two method of NSObject and its subclass are not implemented in general except &lt;strong&gt;NSArray&lt;/strong&gt; &amp;amp; &lt;strong&gt;NSDictionary&lt;/strong&gt; (including mutable ones).  &lt;/p&gt;
+These two method of NSObject and its subclass are not implemented in general except &lt;strong&gt;NSArray&lt;/strong&gt; &amp;amp; &lt;strong&gt;NSDictionary&lt;/strong&gt; (including mutable ones).&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// not all objects implement mechanism (raises exception if not)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mutableCopy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// not all objects implement mechanism (raises exception if not)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -291,7 +327,7 @@ These two method of NSObject and its subclass are not implemented in general exc
 &lt;h3 id=&quot;selector&quot;&gt;4. 利用好 Selector&lt;/h3&gt;
 &lt;p&gt;Take advantage of Selector&lt;br /&gt;
 Method testing methods take a selector (SEL)
-Special @selector() directive turns the name of a method into a selector  &lt;/p&gt;
+Special @selector() directive turns the name of a method into a selector&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;respondsToSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
@@ -299,7 +335,7 @@ Special @selector() directive turns the name of a method into a selector  &lt;/p
     &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;shootAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;SEL is the Objective-C “type” for a selector  &lt;/p&gt;
+&lt;p&gt;SEL is the Objective-C “type” for a selector&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;kt&quot;&gt;SEL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shootSelector&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shoot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;kt&quot;&gt;SEL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shootAtSelector&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;shootAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:);&lt;/span&gt;
@@ -314,17 +350,17 @@ Using makeObjectsPerformSelector: methods in NSArray&lt;/p&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;makeObjectsPerformSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shootSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// cool, huh?&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;makeObjectsPerformSelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shootAtSelector&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;withObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// target is an id&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;￼In UIButton, &lt;code&gt;- (void)addTarget:(id)anObject action:(SEL)action ...;&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;￼In UIButton, &lt;code&gt;- (void)addTarget:(id)anObject action:(SEL)action ...;&lt;/code&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addTarget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;digitPressed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;property-list&quot;&gt;5. 当心 Property List&lt;/h3&gt;
-&lt;p&gt;Take care of Property List &lt;/p&gt;
+&lt;p&gt;Take care of Property List&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;The term “Property List” just means a collection of collections &lt;br /&gt;
 It’s just a phrase (not a language thing). It means any graph of objects containing only:&lt;br /&gt;
-NSArray, NSDictionary, NSNumber, NSString, NSDate, NSData (or mutable subclasses thereof) &lt;/li&gt;
+NSArray, NSDictionary, NSNumber, NSString, NSDate, NSData (or mutable subclasses thereof)&lt;/li&gt;
   &lt;li&gt;An NSArray is a Property List if all its members are too
 So an NSArray of NSString is a Property List.
 So is an NSArray of NSArray as long as those NSArray’s members are Property Lists.&lt;/li&gt;
@@ -353,7 +389,7 @@ This can (only) be sent to an NSArray or NSDictionary that contains only Propert
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;block-block&quot;&gt;3. Block 会对调用的对象产生强引用，直到Block执行结束。这也容易导致循环引用。&lt;/h3&gt;
-&lt;p&gt;正确做法：  &lt;/p&gt;
+&lt;p&gt;正确做法：&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;k&quot;&gt;__weak&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MyClass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;weakSelf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// even though self is strong, weakSelf is weak&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Now&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;we&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reference&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;weakSelf&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inside&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;block&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strongly&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;point&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myBlocks&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -377,10 +413,10 @@ This can (only) be sent to an NSArray or NSDictionary that contains only Propert
 UIView‘s class method(s)  &lt;code&gt;animationWithDuration:...&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;UIView外形的任何改变的动画 Animation of the appearance of arbitrary changes to a UIView&lt;br /&gt;
 By flipping or dissolving or curling the entire view.
-UIView’s class method &lt;code&gt;transitionWithView:...&lt;/code&gt;  &lt;/li&gt;
+UIView’s class method &lt;code&gt;transitionWithView:...&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Dynamic Animator&lt;br /&gt;
 Specify the “physics” of animatable objects (usually UIViews).&lt;br /&gt;
-Gravity, pushing forces, attachments between objects, collision boundaries, etc. Let the physics happen!  &lt;/li&gt;
+Gravity, pushing forces, attachments between objects, collision boundaries, etc. Let the physics happen!&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;uiview-&quot;&gt;3. UIView 动画&lt;/h3&gt;
@@ -388,13 +424,13 @@ Gravity, pushing forces, attachments between objects, collision boundaries, etc.
   &lt;li&gt;Changes to certain UIView properties can be animated over time&lt;br /&gt;
 &lt;strong&gt;frame&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;transform&lt;/strong&gt; (translation, rotation and scale)&lt;br /&gt;
-&lt;strong&gt;alpha&lt;/strong&gt; (opacity)  &lt;/li&gt;
+&lt;strong&gt;alpha&lt;/strong&gt; (opacity)&lt;/li&gt;
   &lt;li&gt;Done with UIView class method and blocks&lt;br /&gt;
 The class method takes animation parameters and an animation block as arguments.
 The animation block contains the code that makes the changes to the UIView(s).
 Most also have a “completion block” to be executed when the animation is done.
-The changes inside the block are made immediately (even though they will appear “over time”).   &lt;/li&gt;
-  &lt;li&gt;Animation class method in UIView  &lt;/li&gt;
+The changes inside the block are made immediately (even though they will appear “over time”).&lt;/li&gt;
+  &lt;li&gt;Animation class method in UIView&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;animateWithDuration:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSTimeInterval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;duration&lt;/span&gt;
@@ -404,7 +440,7 @@ The changes inside the block are made immediately (even though they will appear 
                  &lt;span class=&quot;nf&quot;&gt;completion:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;finished&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;completion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;UIViewAnimationOptions  &lt;/li&gt;
+  &lt;li&gt;UIViewAnimationOptions&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;n&quot;&gt;BeginFromCurrentState&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// interrupt other, in-progress animations of these properties&lt;/span&gt;
@@ -449,7 +485,7 @@ Otherwise it will actually remove fromView from the view hierarchy and add toVie
 &lt;h2 id=&quot;lecture---17-camera-core-motion-application-lifecycle&quot;&gt;Lecture - 17 Camera, Core Motion, Application Lifecycle&lt;/h2&gt;
 
 &lt;h3 id=&quot;app--ui-&quot;&gt;1. 当 App 的 UI 开始/结束时收到的事件&lt;/h3&gt;
-&lt;p&gt;When your application’s UI starts/stops receiving events …  &lt;/p&gt;
+&lt;p&gt;When your application’s UI starts/stops receiving events …&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;applicationDidBecomeActive:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIApplication&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;sender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;applicationWillResignActive:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIApplication&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;sender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -459,7 +495,7 @@ Otherwise it will actually remove fromView from the view hierarchy and add toVie
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;n&quot;&gt;UIApplicationDidBecomeActiveNotification&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UIApplicationWillResignActiveNotification&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;它有可能发生在用户切换到其他 app 或者一个电话打了进来。&lt;br /&gt;
-These might happen because user switched to another app or maybe a phone call come in. Use these notifications to pause doing stuff in your UI and then restart it later.  &lt;/p&gt;
+These might happen because user switched to another app or maybe a phone call come in. Use these notifications to pause doing stuff in your UI and then restart it later.&lt;/p&gt;
 
 &lt;h3 id=&quot;section-2&quot;&gt;2. 当程序进入后台 / 前台…&lt;/h3&gt;
 &lt;p&gt;When you enter the background …&lt;br /&gt;
@@ -490,7 +526,7 @@ You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after rec
     <uri></uri>
     <email>i@wildcat.name</email>
   </author>
-  <content type="html">&lt;p&gt;今天写一个小项目的时候遇到一个这样的需求，截取一个类似 &lt;code&gt;Michael: Hello, World!&lt;/code&gt; 的字符串中的名字部分，当然，代码如下： &lt;/p&gt;
+  <content type="html">&lt;p&gt;今天写一个小项目的时候遇到一个这样的需求，截取一个类似 &lt;code&gt;Michael: Hello, World!&lt;/code&gt; 的字符串中的名字部分，当然，代码如下：&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
@@ -505,12 +541,12 @@ You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after rec
 &lt;span class=&quot;c1&quot;&gt;// Michael:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;那么，这个 &lt;code&gt;range&lt;/code&gt; 的长度如何减少1呢？&lt;br /&gt;
-这里的 &lt;code&gt;range&lt;/code&gt; 的类型是 &lt;code&gt;Range&amp;lt;String.Index&amp;gt;&lt;/code&gt; ，它无法直接减1，下面的做法是错误的：  &lt;/p&gt;
+这里的 &lt;code&gt;range&lt;/code&gt; 的类型是 &lt;code&gt;Range&amp;lt;String.Index&amp;gt;&lt;/code&gt; ，它无法直接减1，下面的做法是错误的：&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;  
 &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;不过， &lt;code&gt;Range&amp;lt;SomeTypes&amp;gt;.startIndex&lt;/code&gt; 或者 &lt;code&gt;Range&amp;lt;SomeTypes&amp;gt;.endIndex&lt;/code&gt; 有 &lt;code&gt;predecessor()&lt;/code&gt; 和 &lt;code&gt;successor()&lt;/code&gt; 方法，分别为 向前 和 向后一位。这样，我们的需求就可以实现了：  &lt;/p&gt;
+&lt;p&gt;不过， &lt;code&gt;Range&amp;lt;SomeTypes&amp;gt;.startIndex&lt;/code&gt; 或者 &lt;code&gt;Range&amp;lt;SomeTypes&amp;gt;.endIndex&lt;/code&gt; 有 &lt;code&gt;predecessor()&lt;/code&gt; 和 &lt;code&gt;successor()&lt;/code&gt; 方法，分别为 向前 和 向后一位。这样，我们的需求就可以实现了：&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-swift&quot; data-lang=&quot;swift&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;range&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;  
     &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subRange&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;startIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predecessor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;  
@@ -540,31 +576,31 @@ You’ll get &lt;code&gt;applicationDidBecomeActive:&lt;/code&gt; soon after rec
     <uri></uri>
     <email>i@wildcat.name</email>
   </author>
-  <content type="html">&lt;p&gt;两个多月的暑假就这么结束了，感觉自己似乎啥也没做，或者说啥也没做好。  &lt;/p&gt;
+  <content type="html">&lt;p&gt;两个多月的暑假就这么结束了，感觉自己似乎啥也没做，或者说啥也没做好。&lt;/p&gt;
 
-&lt;p&gt;先回想下过去。 &lt;/p&gt;
+&lt;p&gt;先回想下过去。&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
 &lt;h2 id=&quot;he&quot;&gt;He&lt;/h2&gt;
 &lt;p&gt;人生的第一次手术经历就这样过去了（虽然是个不值一提的小手术），这一次是真真切切体会到了有个当医生的父亲的好处，不用说他能为自己提供的各种便利，仅仅是作为父亲对自己康复状况的把握，都会让人感觉到很贴心、有很安全感。生命中的至亲能为自己的健康保驾护航真是一件幸福的事情。&lt;br /&gt;
 但是他总很忙。当今中国，从事一个需要专注与单纯的职业的他，无可奈何地承受了太多，医患矛盾尖锐的今天，心里隐隐约约总为他担心。&lt;br /&gt;
-只希望自己能快点成长，等他们需要照顾的时候，自己有能力让他们感到安全感。  &lt;/p&gt;
+只希望自己能快点成长，等他们需要照顾的时候，自己有能力让他们感到安全感。&lt;/p&gt;
 
 &lt;h2 id=&quot;coding&quot;&gt;Coding&lt;/h2&gt;
-&lt;p&gt;最近看到开源中国的一个微信——&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&amp;amp;mid=200514795&amp;amp;idx=3&amp;amp;sn=6b3538dc6b51eb9c510aac05251155fc#rd&quot;&gt;《编程真实的样子》&lt;/a&gt;，最后的漫画真是让人深有感触。以往的自己对于编码的热情在于自己可以用计算机做各种各样想做的事情，但是由浅入深，慢慢发现，真正想完成一个有意义的项目，所要花费的时间超乎想象；而这个过程却不是往往充满趣味，更多的是寂寞与枯燥。  &lt;/p&gt;
+&lt;p&gt;最近看到开源中国的一个微信——&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MjM5NzM0MjcyMQ==&amp;amp;mid=200514795&amp;amp;idx=3&amp;amp;sn=6b3538dc6b51eb9c510aac05251155fc#rd&quot;&gt;《编程真实的样子》&lt;/a&gt;，最后的漫画真是让人深有感触。以往的自己对于编码的热情在于自己可以用计算机做各种各样想做的事情，但是由浅入深，慢慢发现，真正想完成一个有意义的项目，所要花费的时间超乎想象；而这个过程却不是往往充满趣味，更多的是寂寞与枯燥。&lt;/p&gt;
 
 &lt;h2 id=&quot;ielts&quot;&gt;IELTS&lt;/h2&gt;
-&lt;p&gt;家里的确不是一个适合发奋图强的地方，过于优越的生活环境会让人变得没有战斗力。虽然不得不说小手术影响了雅思复习的进度，但是自己确实没有努力。 &lt;/p&gt;
+&lt;p&gt;家里的确不是一个适合发奋图强的地方，过于优越的生活环境会让人变得没有战斗力。虽然不得不说小手术影响了雅思复习的进度，但是自己确实没有努力。&lt;/p&gt;
 
-&lt;p&gt;现在已经接近晚上10点，明日（9月11日）可以视作新学年的开始。回到了离别两月的校园，周围还是没有一点儿变化——还是依旧争相浪费自己的生命——自己应该随时保持清醒。  &lt;/p&gt;
+&lt;p&gt;现在已经接近晚上10点，明日（9月11日）可以视作新学年的开始。回到了离别两月的校园，周围还是没有一点儿变化——还是依旧争相浪费自己的生命——自己应该随时保持清醒。&lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;新学年计划&lt;/h2&gt;
-&lt;p&gt;心里的想法很多，但是我觉得还是写出来让大家看才有动力、压力去实现：  &lt;/p&gt;
+&lt;p&gt;心里的想法很多，但是我觉得还是写出来让大家看才有动力、压力去实现：&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;雅思达到6分  &lt;/li&gt;
-  &lt;li&gt;每月至少3篇博客更新（尝试英文写作、尝试翻译技术文章）  &lt;/li&gt;
+  &lt;li&gt;雅思达到6分&lt;/li&gt;
+  &lt;li&gt;每月至少3篇博客更新（尝试英文写作、尝试翻译技术文章）&lt;/li&gt;
   &lt;li&gt;实现 &lt;a href=&quot;https://v2ex.com&quot;&gt;V2EX&lt;/a&gt; Swift iOS 客户端&lt;/li&gt;
   &lt;li&gt;完成第一个 iOS 付费 App 并达到 200 以上装机量&lt;/li&gt;
 &lt;/ol&gt;

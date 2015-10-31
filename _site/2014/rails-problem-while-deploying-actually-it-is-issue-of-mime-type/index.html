@@ -174,7 +174,7 @@ Description: Awesome dude, awesome life
 CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 各种 keyword （比如 rails css not working / rails css not rendered ）都是没有符合的结果。纠结了好久。<br />
 <!-- more -->
 今天中午的时候终于发现 CSS 的 Content Type 不对，竟然是 <code>text/plain</code> ，于是去 nginx.conf 里寻错。原因是我把以前 nginx.conf 删掉了，新的配置文件内没有了 <code>include /etc/nginx/mime.types;</code> 。重新修改文件结构，重启 nginx ，<strong>问题依旧</strong> 。<br />
-我以为还是没有找到问题，但是突然想到 HTTP 头内有设置缓存，于是换了个浏览器，CSS最终正确显示，问题得到解决。  </p>
+我以为还是没有找到问题，但是突然想到 HTTP 头内有设置缓存，于是换了个浏览器，CSS最终正确显示，问题得到解决。</p>
 
 <p>虽然是个低级的问题，但是被纠结了大半天，一开始也没有考虑到 Content Type 的问题。</p>
 
@@ -245,7 +245,7 @@ CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 
             </li>
         </ul>
             <div>
-                <a href="/about/">WildCat</a> &copy; 2014 &bull; All rights reserved.
+                <a href="/about/">WildCat</a> &copy; 2015 &bull; All rights reserved.
             </div>
             <ul class="menu-items">
             

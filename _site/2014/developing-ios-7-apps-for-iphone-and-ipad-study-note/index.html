@@ -204,7 +204,7 @@ It’s very convient to implement this method in your custom class, for purpose 
 <h3 id="nsobject--copy--mutablecopy-">3. NSObject 的 copy 和 mutablecopy 方法</h3>
 <p>copy and mutablecopy methods of NSObejct <br />
 NSObject 或者其他子类 的这两个方法一般是没有被实现的，除了 <strong>NSArray</strong> 和 <strong>NSDictionary</strong> (包括 mutable 类型)<br />
-These two method of NSObject and its subclass are not implemented in general except <strong>NSArray</strong> &amp; <strong>NSDictionary</strong> (including mutable ones).  </p>
+These two method of NSObject and its subclass are not implemented in general except <strong>NSArray</strong> &amp; <strong>NSDictionary</strong> (including mutable ones).</p>
 
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">-</span> <span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nf">copy</span><span class="p">;</span> <span class="c1">// not all objects implement mechanism (raises exception if not)</span>
 <span class="p">-</span> <span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nf">mutableCopy</span><span class="p">;</span> <span class="c1">// not all objects implement mechanism (raises exception if not)</span></code></pre></div>
@@ -212,7 +212,7 @@ These two method of NSObject and its subclass are not implemented in general exc
 <h3 id="selector">4. 利用好 Selector</h3>
 <p>Take advantage of Selector<br />
 Method testing methods take a selector (SEL)
-Special @selector() directive turns the name of a method into a selector  </p>
+Special @selector() directive turns the name of a method into a selector</p>
 
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">if</span> <span class="p">([</span><span class="n">obj</span> <span class="nl">respondsToSelector</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="n">shoot</span><span class="p">)])</span> <span class="p">{</span>
     <span class="p">[</span><span class="n">obj</span> <span class="n">shoot</span><span class="p">];</span>
@@ -220,7 +220,7 @@ Special @selector() directive turns the name of a method into a selector  </p>
     <span class="p">[</span><span class="n">obj</span> <span class="nl">shootAt</span><span class="p">:</span><span class="n">target</span><span class="p">];</span>
 <span class="p">}</span></code></pre></div>
 
-<p>SEL is the Objective-C “type” for a selector  </p>
+<p>SEL is the Objective-C “type” for a selector</p>
 
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="kt">SEL</span> <span class="n">shootSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="n">shoot</span><span class="p">);</span>
 <span class="kt">SEL</span> <span class="n">shootAtSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="nl">shootAt</span><span class="p">:);</span>
@@ -235,17 +235,17 @@ Using makeObjectsPerformSelector: methods in NSArray</p>
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">[</span><span class="n">array</span> <span class="nl">makeObjectsPerformSelector</span><span class="p">:</span><span class="n">shootSelector</span><span class="p">];</span> <span class="c1">// cool, huh?</span>
 <span class="p">[</span><span class="n">array</span> <span class="nl">makeObjectsPerformSelector</span><span class="p">:</span><span class="n">shootAtSelector</span> <span class="nl">withObject</span><span class="p">:</span><span class="n">target</span><span class="p">];</span> <span class="c1">// target is an id</span></code></pre></div>
 
-<p>￼In UIButton, <code>- (void)addTarget:(id)anObject action:(SEL)action ...;</code> </p>
+<p>￼In UIButton, <code>- (void)addTarget:(id)anObject action:(SEL)action ...;</code></p>
 
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">[</span><span class="n">button</span> <span class="nl">addTarget</span><span class="p">:</span><span class="nb">self</span> <span class="nl">action</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="nl">digitPressed</span><span class="p">:)</span> <span class="p">...];</span></code></pre></div>
 
 <h3 id="property-list">5. 当心 Property List</h3>
-<p>Take care of Property List </p>
+<p>Take care of Property List</p>
 
 <ul>
   <li>The term “Property List” just means a collection of collections <br />
 It’s just a phrase (not a language thing). It means any graph of objects containing only:<br />
-NSArray, NSDictionary, NSNumber, NSString, NSDate, NSData (or mutable subclasses thereof) </li>
+NSArray, NSDictionary, NSNumber, NSString, NSDate, NSData (or mutable subclasses thereof)</li>
   <li>An NSArray is a Property List if all its members are too
 So an NSArray of NSString is a Property List.
 So is an NSArray of NSArray as long as those NSArray’s members are Property Lists.</li>
@@ -274,7 +274,7 @@ This can (only) be sent to an NSArray or NSDictionary that contains only Propert
 <span class="p">}</span> <span class="p">}];</span></code></pre></div>
 
 <h3 id="block-block">3. Block 会对调用的对象产生强引用，直到Block执行结束。这也容易导致循环引用。</h3>
-<p>正确做法：  </p>
+<p>正确做法：</p>
 
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">__weak</span> <span class="n">MyClass</span> <span class="o">*</span><span class="n">weakSelf</span> <span class="o">=</span> <span class="nb">self</span><span class="p">;</span> <span class="c1">// even though self is strong, weakSelf is weak</span>
 <span class="n">Now</span> <span class="k">if</span> <span class="n">we</span> <span class="n">reference</span> <span class="n">weakSelf</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">block</span><span class="p">,</span> <span class="n">then</span> <span class="n">the</span> <span class="n">block</span> <span class="n">will</span> <span class="n">not</span> <span class="n">strongly</span> <span class="n">point</span> <span class="n">to</span> <span class="nb">self</span> <span class="p">...</span> <span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">myBlocks</span> <span class="nl">addObject</span><span class="p">:</span><span class="o">^</span> <span class="p">{</span>
@@ -298,10 +298,10 @@ This can (only) be sent to an NSArray or NSDictionary that contains only Propert
 UIView‘s class method(s)  <code>animationWithDuration:...</code></li>
   <li>UIView外形的任何改变的动画 Animation of the appearance of arbitrary changes to a UIView<br />
 By flipping or dissolving or curling the entire view.
-UIView’s class method <code>transitionWithView:...</code>  </li>
+UIView’s class method <code>transitionWithView:...</code></li>
   <li>Dynamic Animator<br />
 Specify the “physics” of animatable objects (usually UIViews).<br />
-Gravity, pushing forces, attachments between objects, collision boundaries, etc. Let the physics happen!  </li>
+Gravity, pushing forces, attachments between objects, collision boundaries, etc. Let the physics happen!</li>
 </ol>
 
 <h3 id="uiview-">3. UIView 动画</h3>
@@ -309,13 +309,13 @@ Gravity, pushing forces, attachments between objects, collision boundaries, etc.
   <li>Changes to certain UIView properties can be animated over time<br />
 <strong>frame</strong><br />
 <strong>transform</strong> (translation, rotation and scale)<br />
-<strong>alpha</strong> (opacity)  </li>
+<strong>alpha</strong> (opacity)</li>
   <li>Done with UIView class method and blocks<br />
 The class method takes animation parameters and an animation block as arguments.
 The animation block contains the code that makes the changes to the UIView(s).
 Most also have a “completion block” to be executed when the animation is done.
-The changes inside the block are made immediately (even though they will appear “over time”).   </li>
-  <li>Animation class method in UIView  </li>
+The changes inside the block are made immediately (even though they will appear “over time”).</li>
+  <li>Animation class method in UIView</li>
 </ul>
 
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">animateWithDuration:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">duration</span>
@@ -325,7 +325,7 @@ The changes inside the block are made immediately (even though they will appear 
                  <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></div>
 
 <ul>
-  <li>UIViewAnimationOptions  </li>
+  <li>UIViewAnimationOptions</li>
 </ul>
 
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="n">BeginFromCurrentState</span> <span class="c1">// interrupt other, in-progress animations of these properties</span>
@@ -370,7 +370,7 @@ Otherwise it will actually remove fromView from the view hierarchy and add toVie
 <h2 id="lecture---17-camera-core-motion-application-lifecycle">Lecture - 17 Camera, Core Motion, Application Lifecycle</h2>
 
 <h3 id="app--ui-">1. 当 App 的 UI 开始/结束时收到的事件</h3>
-<p>When your application’s UI starts/stops receiving events …  </p>
+<p>When your application’s UI starts/stops receiving events …</p>
 
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationDidBecomeActive:</span><span class="p">(</span><span class="bp">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">sender</span><span class="p">;</span>
 <span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationWillResignActive:</span><span class="p">(</span><span class="bp">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">sender</span><span class="p">;</span></code></pre></div>
@@ -380,7 +380,7 @@ Otherwise it will actually remove fromView from the view hierarchy and add toVie
 <div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="n">UIApplicationDidBecomeActiveNotification</span> <span class="n">UIApplicationWillResignActiveNotification</span></code></pre></div>
 
 <p>它有可能发生在用户切换到其他 app 或者一个电话打了进来。<br />
-These might happen because user switched to another app or maybe a phone call come in. Use these notifications to pause doing stuff in your UI and then restart it later.  </p>
+These might happen because user switched to another app or maybe a phone call come in. Use these notifications to pause doing stuff in your UI and then restart it later.</p>
 
 <h3 id="section-2">2. 当程序进入后台 / 前台…</h3>
 <p>When you enter the background …<br />
@@ -463,7 +463,7 @@ You’ll get <code>applicationDidBecomeActive:</code> soon after receiving the a
             </li>
         </ul>
             <div>
-                <a href="/about/">WildCat</a> &copy; 2014 &bull; All rights reserved.
+                <a href="/about/">WildCat</a> &copy; 2015 &bull; All rights reserved.
             </div>
             <ul class="menu-items">
             
