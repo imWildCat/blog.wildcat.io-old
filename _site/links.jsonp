@@ -43,6 +43,11 @@ callback([
   {
     "text": "转眼这一年",
     "href": "/2015/a-long-time-since-last-blog-post"
+  } ,
+
+  {
+    "text": "我准备雅思的经历",
+    "href": "/2015/my-experience-of-preparing-ielts"
   } 
 
 ])
