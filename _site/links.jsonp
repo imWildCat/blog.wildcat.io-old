@@ -48,6 +48,11 @@ callback([
   {
     "text": "知识带来自由——《大学之路》读后感",
     "href": "/2015/thoughts-of-the-way-of-a-college"
+  } ,
+
+  {
+    "text": "Review of My 2015",
+    "href": "/2015/review-of-my-2015"
   } 
 
 ])

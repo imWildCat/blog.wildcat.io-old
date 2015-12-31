@@ -157,8 +157,6 @@ Description: Awesome dude, awesome life
             
             
             
-            
-            
                     <header class="post-header entry-header">
                     
                         
@@ -178,7 +176,7 @@ Description: Awesome dude, awesome life
 <p>Casting is unsafe, we have to check which class the id is from before doing this.
 <!-- more --></p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="err">￼</span><span class="k">@interface</span> <span class="nc">Vehicle</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="err">￼</span><span class="k">@interface</span> <span class="nc">Vehicle</span>
 <span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">move</span><span class="p">;</span>
 <span class="k">@end</span>
 <span class="k">@interface</span> <span class="nc">Ship</span> : <span class="nc">Vehicle</span>
@@ -196,7 +194,7 @@ Description: Awesome dude, awesome life
 <span class="err">￼￼</span><span class="bp">NSString</span> <span class="o">*</span><span class="n">hello</span> <span class="o">=</span> <span class="s">@&quot;hello&quot;</span><span class="p">;</span>
 <span class="p">[</span><span class="n">hello</span> <span class="n">shoot</span><span class="p">];</span>
 <span class="n">Ship</span> <span class="o">*</span><span class="n">helloShip</span> <span class="o">=</span> <span class="p">(</span><span class="n">Ship</span> <span class="o">*</span><span class="p">)</span><span class="n">hello</span><span class="p">;</span>
-<span class="p">[</span><span class="n">helloShip</span> <span class="n">shoot</span><span class="p">];</span> <span class="c1">// We’ve forced the compiler to ignore the object type by “casting” in line. “All’s well,” the compiler thinks. Guaranteed crash at runtime.</span></code></pre></div>
+<span class="p">[</span><span class="n">helloShip</span> <span class="n">shoot</span><span class="p">];</span> <span class="c1">// We’ve forced the compiler to ignore the object type by “casting” in line. “All’s well,” the compiler thinks. Guaranteed crash at runtime.</span></code></pre></figure>
 
 <h3 id="nsobejct--description-">2. NSObejct 的 description 方法</h3>
 <p>description method of NSObject<br />
@@ -208,25 +206,25 @@ It’s very convient to implement this method in your custom class, for purpose 
 NSObject 或者其他子类 的这两个方法一般是没有被实现的，除了 <strong>NSArray</strong> 和 <strong>NSDictionary</strong> (包括 mutable 类型)<br />
 These two method of NSObject and its subclass are not implemented in general except <strong>NSArray</strong> &amp; <strong>NSDictionary</strong> (including mutable ones).</p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">-</span> <span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nf">copy</span><span class="p">;</span> <span class="c1">// not all objects implement mechanism (raises exception if not)</span>
-<span class="p">-</span> <span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nf">mutableCopy</span><span class="p">;</span> <span class="c1">// not all objects implement mechanism (raises exception if not)</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">-</span> <span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nf">copy</span><span class="p">;</span> <span class="c1">// not all objects implement mechanism (raises exception if not)</span>
+<span class="p">-</span> <span class="p">(</span><span class="kt">id</span><span class="p">)</span><span class="nf">mutableCopy</span><span class="p">;</span> <span class="c1">// not all objects implement mechanism (raises exception if not)</span></code></pre></figure>
 
 <h3 id="selector">4. 利用好 Selector</h3>
 <p>Take advantage of Selector<br />
 Method testing methods take a selector (SEL)
 Special @selector() directive turns the name of a method into a selector</p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">if</span> <span class="p">([</span><span class="n">obj</span> <span class="nl">respondsToSelector</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="n">shoot</span><span class="p">)])</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">if</span> <span class="p">([</span><span class="n">obj</span> <span class="nl">respondsToSelector</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="n">shoot</span><span class="p">)])</span> <span class="p">{</span>
     <span class="p">[</span><span class="n">obj</span> <span class="n">shoot</span><span class="p">];</span>
 <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">([</span><span class="n">obj</span> <span class="nl">respondsToSelector</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="nl">shootAt</span><span class="p">:)])</span> <span class="p">{</span>
     <span class="p">[</span><span class="n">obj</span> <span class="nl">shootAt</span><span class="p">:</span><span class="n">target</span><span class="p">];</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
 <p>SEL is the Objective-C “type” for a selector</p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="kt">SEL</span> <span class="n">shootSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="n">shoot</span><span class="p">);</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="kt">SEL</span> <span class="n">shootSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="n">shoot</span><span class="p">);</span>
 <span class="kt">SEL</span> <span class="n">shootAtSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="nl">shootAt</span><span class="p">:);</span>
-<span class="kt">SEL</span> <span class="n">moveToSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="nl">moveTo</span><span class="p">:</span><span class="nl">withPenColor</span><span class="p">:);</span></code></pre></div>
+<span class="kt">SEL</span> <span class="n">moveToSelector</span> <span class="o">=</span> <span class="k">@selector</span><span class="p">(</span><span class="nl">moveTo</span><span class="p">:</span><span class="nl">withPenColor</span><span class="p">:);</span></code></pre></figure>
 
 <p>如果你有一个 SEL 类型的变量，你也可以请求一个对象使用它…<br />
 If you have a SEL, you can also ask an object to perform it …<br />
@@ -234,12 +232,12 @@ Using the <code>performSelector:</code> or <code>performSelector:withObject: met
 <code>[obj performSelector:shootAtSelector withObject:coordinate];</code><br />
 Using makeObjectsPerformSelector: methods in NSArray</p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">[</span><span class="n">array</span> <span class="nl">makeObjectsPerformSelector</span><span class="p">:</span><span class="n">shootSelector</span><span class="p">];</span> <span class="c1">// cool, huh?</span>
-<span class="p">[</span><span class="n">array</span> <span class="nl">makeObjectsPerformSelector</span><span class="p">:</span><span class="n">shootAtSelector</span> <span class="nl">withObject</span><span class="p">:</span><span class="n">target</span><span class="p">];</span> <span class="c1">// target is an id</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">[</span><span class="n">array</span> <span class="nl">makeObjectsPerformSelector</span><span class="p">:</span><span class="n">shootSelector</span><span class="p">];</span> <span class="c1">// cool, huh?</span>
+<span class="p">[</span><span class="n">array</span> <span class="nl">makeObjectsPerformSelector</span><span class="p">:</span><span class="n">shootAtSelector</span> <span class="nl">withObject</span><span class="p">:</span><span class="n">target</span><span class="p">];</span> <span class="c1">// target is an id</span></code></pre></figure>
 
 <p>￼In UIButton, <code>- (void)addTarget:(id)anObject action:(SEL)action ...;</code></p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">[</span><span class="n">button</span> <span class="nl">addTarget</span><span class="p">:</span><span class="nb">self</span> <span class="nl">action</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="nl">digitPressed</span><span class="p">:)</span> <span class="p">...];</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">[</span><span class="n">button</span> <span class="nl">addTarget</span><span class="p">:</span><span class="nb">self</span> <span class="nl">action</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="nl">digitPressed</span><span class="p">:)</span> <span class="p">...];</span></code></pre></figure>
 
 <h3 id="property-list">5. 当心 Property List</h3>
 <p>Take care of Property List</p>
@@ -266,22 +264,22 @@ This can (only) be sent to an NSArray or NSDictionary that contains only Propert
 
 <h3 id="block--block-">2. Block 外部变量是只读的，如果想实现读写，变量前需要加 __block 关键字</h3>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">__block</span> <span class="kt">BOOL</span> <span class="n">stoppedEarly</span> <span class="o">=</span> <span class="nb">NO</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">__block</span> <span class="kt">BOOL</span> <span class="n">stoppedEarly</span> <span class="o">=</span> <span class="nb">NO</span><span class="p">;</span>
 <span class="kt">double</span> <span class="n">stopValue</span> <span class="o">=</span> <span class="mf">53.5</span><span class="p">;</span>
 <span class="p">[</span><span class="n">aDictionary</span> <span class="nl">enumerateKeysAndObjectsUsingBlock</span><span class="p">:</span><span class="o">^</span><span class="p">(</span><span class="kt">id</span> <span class="n">key</span><span class="p">,</span> <span class="kt">id</span> <span class="n">value</span><span class="p">,</span> <span class="kt">BOOL</span> <span class="o">*</span><span class="n">stop</span><span class="p">)</span> <span class="p">{</span>
     <span class="n">NSLog</span><span class="p">(@</span><span class="err">“</span><span class="n">value</span> <span class="k">for</span> <span class="n">key</span> <span class="o">%</span><span class="p">@</span> <span class="n">is</span> <span class="o">%</span><span class="p">@</span><span class="err">”</span><span class="p">,</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">);</span>
     <span class="k">if</span> <span class="p">([@</span><span class="err">“</span><span class="n">ENOUGH</span><span class="err">”</span> <span class="nl">isEqualToString</span><span class="p">:</span><span class="n">key</span><span class="p">]</span> <span class="o">||</span> <span class="p">([</span><span class="n">value</span> <span class="n">doubleValue</span><span class="p">]</span> <span class="o">==</span> <span class="n">stopValue</span><span class="p">))</span> <span class="p">{</span>
 <span class="err">￼</span><span class="o">*</span><span class="n">stop</span> <span class="o">=</span> <span class="nb">YES</span><span class="p">;</span>
         <span class="n">stoppedEarly</span> <span class="o">=</span> <span class="nb">YES</span><span class="p">;</span>  <span class="c1">// this is legal now</span>
-<span class="p">}</span> <span class="p">}];</span></code></pre></div>
+<span class="p">}</span> <span class="p">}];</span></code></pre></figure>
 
 <h3 id="block-block">3. Block 会对调用的对象产生强引用，直到Block执行结束。这也容易导致循环引用。</h3>
 <p>正确做法：</p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">__weak</span> <span class="n">MyClass</span> <span class="o">*</span><span class="n">weakSelf</span> <span class="o">=</span> <span class="nb">self</span><span class="p">;</span> <span class="c1">// even though self is strong, weakSelf is weak</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="k">__weak</span> <span class="n">MyClass</span> <span class="o">*</span><span class="n">weakSelf</span> <span class="o">=</span> <span class="nb">self</span><span class="p">;</span> <span class="c1">// even though self is strong, weakSelf is weak</span>
 <span class="n">Now</span> <span class="k">if</span> <span class="n">we</span> <span class="n">reference</span> <span class="n">weakSelf</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">block</span><span class="p">,</span> <span class="n">then</span> <span class="n">the</span> <span class="n">block</span> <span class="n">will</span> <span class="n">not</span> <span class="n">strongly</span> <span class="n">point</span> <span class="n">to</span> <span class="nb">self</span> <span class="p">...</span> <span class="p">[</span><span class="nb">self</span><span class="p">.</span><span class="n">myBlocks</span> <span class="nl">addObject</span><span class="p">:</span><span class="o">^</span> <span class="p">{</span>
     <span class="p">[</span><span class="n">weakSelf</span> <span class="n">doSomething</span><span class="p">];</span>
-<span class="p">}];</span></code></pre></div>
+<span class="p">}];</span></code></pre></figure>
 
 <h2 id="lecture-9---animation--autolayout">Lecture 9 - Animation &amp; Autolayout</h2>
 
@@ -320,17 +318,17 @@ The changes inside the block are made immediately (even though they will appear 
   <li>Animation class method in UIView</li>
 </ul>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">animateWithDuration:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">duration</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">animateWithDuration:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">duration</span>
                       <span class="nf">delay:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">delay</span>
                     <span class="nf">options:</span><span class="p">(</span><span class="n">UIViewAnimationOptions</span><span class="p">)</span><span class="nv">options</span>
                  <span class="nf">animations:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">animations</span>
-                 <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></div>
+                 <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></figure>
 
 <ul>
   <li>UIViewAnimationOptions</li>
 </ul>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="n">BeginFromCurrentState</span> <span class="c1">// interrupt other, in-progress animations of these properties</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc">  <span class="n">BeginFromCurrentState</span> <span class="c1">// interrupt other, in-progress animations of these properties</span>
   <span class="n">AllowUserInteraction</span> <span class="c1">// allow gestures to get processed while animation is in progress</span>
   <span class="n">LayoutSubviews</span> <span class="c1">// animate the relayout of subviews along with a parent’s animation</span>
   <span class="n">Repeat</span> <span class="c1">// repeat indefinitely</span>
@@ -340,7 +338,7 @@ The changes inside the block are made immediately (even though they will appear 
   <span class="n">AllowAnimatedContent</span> <span class="c1">// if not set, just interpolate between current and end state image</span>
   <span class="n">CurveEaseInEaseOut</span> <span class="c1">// slower at the beginning, normal throughout, then slow at end</span>
   <span class="n">CurveEaseIn</span> <span class="c1">// slower at the beginning, but then constant through the rest</span>
-  <span class="n">CurveLinear</span> <span class="c1">// same speed throughout</span></code></pre></div>
+  <span class="n">CurveLinear</span> <span class="c1">// same speed throughout</span></code></pre></figure>
 
 <ul>
   <li>Translation Animation<br />
@@ -351,20 +349,20 @@ Curling up or down <code>UIViewAnimationOptionsTransitionCurl{Up,Down}</code><br
 Just put the changes inside the animations block of this UIView class method …</li>
 </ul>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">transitionWithView:</span><span class="p">(</span><span class="bp">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">view</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">transitionWithView:</span><span class="p">(</span><span class="bp">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">view</span>
                   <span class="nf">duration:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">duration</span>
                    <span class="nf">options:</span><span class="p">(</span><span class="n">UIViewAnimationOptions</span><span class="p">)</span><span class="nv">options</span>
                 <span class="nf">animations:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">void</span><span class="p">))</span><span class="nv">animations</span>
-                <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></div>
+                <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></figure>
 
 <p><strong>Animating changes to the view hierarchy is slightly different</strong><br />
 Animate swapping the replacement of one view with another in the view hierarchy.</p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">transitionFromView:</span><span class="p">(</span><span class="bp">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">fromView</span>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">transitionFromView:</span><span class="p">(</span><span class="bp">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">fromView</span>
                     <span class="nf">toView:</span><span class="p">(</span><span class="bp">UIView</span> <span class="o">*</span><span class="p">)</span><span class="nv">toView</span>
                   <span class="nf">duration:</span><span class="p">(</span><span class="n">NSTimeInterval</span><span class="p">)</span><span class="nv">duration</span>
                    <span class="nf">options:</span><span class="p">(</span><span class="n">UIViewAnimationOptions</span><span class="p">)</span><span class="nv">options</span>
-                <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></div>
+                <span class="nf">completion:</span><span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="kt">BOOL</span> <span class="n">finished</span><span class="p">))</span><span class="nv">completion</span><span class="p">;</span></code></pre></figure>
 
 <p>Include <code>UIViewAnimationOptionShowHideTransitionViews</code> if you want to use the hidden property. <br />
 Otherwise it will actually remove fromView from the view hierarchy and add toView.</p>
@@ -374,12 +372,12 @@ Otherwise it will actually remove fromView from the view hierarchy and add toVie
 <h3 id="app--ui-">1. 当 App 的 UI 开始/结束时收到的事件</h3>
 <p>When your application’s UI starts/stops receiving events …</p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationDidBecomeActive:</span><span class="p">(</span><span class="bp">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">sender</span><span class="p">;</span>
-<span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationWillResignActive:</span><span class="p">(</span><span class="bp">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">sender</span><span class="p">;</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationDidBecomeActive:</span><span class="p">(</span><span class="bp">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">sender</span><span class="p">;</span>
+<span class="p">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">applicationWillResignActive:</span><span class="p">(</span><span class="bp">UIApplication</span> <span class="o">*</span><span class="p">)</span><span class="nv">sender</span><span class="p">;</span></code></pre></figure>
 
 <p>任何对象都可以接收到如下的通知中心广播。Everyone gets these radio station broadcasts …</p>
 
-<div class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="n">UIApplicationDidBecomeActiveNotification</span> <span class="n">UIApplicationWillResignActiveNotification</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-objc" data-lang="objc"><span class="n">UIApplicationDidBecomeActiveNotification</span> <span class="n">UIApplicationWillResignActiveNotification</span></code></pre></figure>
 
 <p>它有可能发生在用户切换到其他 app 或者一个电话打了进来。<br />
 These might happen because user switched to another app or maybe a phone call come in. Use these notifications to pause doing stuff in your UI and then restart it later.</p>

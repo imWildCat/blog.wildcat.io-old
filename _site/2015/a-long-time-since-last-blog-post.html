@@ -17,14 +17,14 @@ Description: Awesome dude, awesome life
 -->
 <head>
 <meta charset="utf-8">
-<title>Rails 部署时遇到的问题（其实是 MIME type 错误） &#8211; WildCat's Blog</title>
+<title>转眼这一年 &#8211; WildCat's Blog</title>
 <meta name="description" content="钝鸟先飞，大器晚成">
 <meta name="keywords" content="">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="/images/cat-assets/logo-large.png">
-<meta name="twitter:title" content="Rails 部署时遇到的问题（其实是 MIME type 错误）">
+<meta name="twitter:title" content="转眼这一年">
 <meta name="twitter:description" content="钝鸟先飞，大器晚成">
 <meta name="twitter:creator" content="@wildcat_io">
 
@@ -33,9 +33,9 @@ Description: Awesome dude, awesome life
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Rails 部署时遇到的问题（其实是 MIME type 错误）">
+<meta property="og:title" content="转眼这一年">
 <meta property="og:description" content="钝鸟先飞，大器晚成">
-<meta property="og:url" content="/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type">
+<meta property="og:url" content="/2015/a-long-time-since-last-blog-post">
 <meta property="og:site_name" content="WildCat's Blog">
 <meta property="og:image" content="/images/cat-assets/campus-cuiyuan.jpg">
 
@@ -43,7 +43,7 @@ Description: Awesome dude, awesome life
 
 
 
-<link rel="canonical" href="/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type">
+<link rel="canonical" href="/2015/a-long-time-since-last-blog-post">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="WildCat's Blog Feed">
 
 
@@ -157,28 +157,39 @@ Description: Awesome dude, awesome life
             
             
             
-            
-            
                     <header class="post-header entry-header">
                     
                         
-                        <h1 class="post-title text-center hyper lighter bordered-bottom entry-title" itemprop="headline">Rails 部署时遇到的问题（其实是 MIME type 错误）</h1>
+                        <h1 class="post-title text-center hyper lighter bordered-bottom entry-title" itemprop="headline">转眼这一年</h1>
                         
                         <div class="cursive" style="color: #000; font-style:italic;"></div>
                         <div class="post-info text-center small">
-                            <span class="entry-date date published updated"><time datetime="2014-10-13T22:14:00+08:00" class="post-time" itemprop="datePublished">13 Oct 2014</time><span>
-                            in <span class="post-tags"><a href="/categories/index.html#development" data-toggle="tooltip" title="Other posts from the Development category" rel="tag">Development</a></span>
+                            <span class="entry-date date published updated"><time datetime="2015-10-31T20:50:00+08:00" class="post-time" itemprop="datePublished">31 Oct 2015</time><span>
+                            in <span class="post-tags"><a href="/categories/index.html#Diary" data-toggle="tooltip" title="Other posts from the Diary category" rel="tag">Diary</a></span>
                         </div>
                     </header>
                     <div class="post-body bordered-bottom" itemprop="description">
                         
-                        <p>这两天在学习 Rails ，昨晚第一次尝试部署，遇到一个奇葩的问题：<br />
-CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 各种 keyword （比如 rails css not working / rails css not rendered ）都是没有符合的结果。纠结了好久。<br />
-<!-- more -->
-今天中午的时候终于发现 CSS 的 Content Type 不对，竟然是 <code>text/plain</code> ，于是去 nginx.conf 里寻错。原因是我把以前 nginx.conf 删掉了，新的配置文件内没有了 <code>include /etc/nginx/mime.types;</code> 。重新修改文件结构，重启 nginx ，<strong>问题依旧</strong> 。<br />
-我以为还是没有找到问题，但是突然想到 HTTP 头内有设置缓存，于是换了个浏览器，CSS最终正确显示，问题得到解决。</p>
+                        <blockquote>
+  <p>虽然经常打开看自己的博客，但是没想到这么快————已经将近 1 年没更新了。很巧合，上次更新博客的时候是我刚考完第一次雅思，这次也是刚考完雅思。虽然这个时间点有点儿“前不着村，后不着店”，但是很想简单回顾下过去的 1 年。</p>
+</blockquote>
 
-<p>虽然是个低级的问题，但是被纠结了大半天，一开始也没有考虑到 Content Type 的问题。</p>
+<p>其实购买 <em>wildcat.io</em> 这个域名，建立这个博客，最初的目的是为了写一些技术性的内容。不过没想到这里几乎成了自己吐槽自己的地方。</p>
+
+<!-- more -->
+
+<p>粗略回想下从去年的今天到现在，好多小伙伴突然结婚了（真的是好突然），没结婚的也几乎成了人生赢家（之前结过婚的就更不用说了）……还有的找到了不错的工作，或者去了自己喜欢的大学（国家）继续读书，对比之下，多少有点失落。其实仔细想想，也许各自有路走，可能属于自己的未来更美好……不过这也不应该拿来比较。</p>
+
+<p>实在不想继续评价自己雅思的准备情况，这次基本算尽力，不过临考的前几天发现了更好的备考想法，没有用实践加以验证。如果有机会的话（希望不要），我打算尝试下。</p>
+
+<p>Todo List 上已经有成吨的事情需要处理，自己的想法也想一一实现。虽然转眼间就要迎来第二个本命年，但是需要积累的事情还有很多，希望可以在这个过程中慢慢变得老练与成熟，成为自己希望成为的那种人。</p>
+
+<p>不管怎样，最后，</p>
+
+<blockquote>
+  <p>Elune-adore!<br />
+愿月神保佑你！</p>
+</blockquote>
 
                         <br>
                     
@@ -192,19 +203,19 @@ CSS/JavaScript 能被加载，但是在页面上就是不渲染。尝试 Google 
     </p>
     <ul class="social-mini">
         <li>
-            <a href="https://twitter.com/intent/tweet?text=&quot;Rails 部署时遇到的问题（其实是 MIME type 错误）&quot;%20/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type%20via%20&#64;wildcat_io"
+            <a href="https://twitter.com/intent/tweet?text=&quot;转眼这一年&quot;%20/2015/a-long-time-since-last-blog-post%20via%20&#64;wildcat_io"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
                 <i class="icon-twitter"></i>
             </a>
         </li>
         <li>
-            <a  href="https://www.facebook.com/sharer/sharer.php?u=/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type"
+            <a  href="https://www.facebook.com/sharer/sharer.php?u=/2015/a-long-time-since-last-blog-post"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
                 <i class="icon-facebook"></i>
             </a>
         </li>
         <li>
-            <a href="https://plus.google.com/share?url=/2014/rails-problem-while-deploying-actually-it-is-issue-of-mime-type"
+            <a href="https://plus.google.com/share?url=/2015/a-long-time-since-last-blog-post"
            onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
                 <i class="icon-google-plus"></i>
             </a>
